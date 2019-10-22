@@ -27,7 +27,7 @@ class SNMPSimOSCommandRunner:
         return [settings.SNMPSIM_SCRIPT_PATH,
                 f"--process-user={settings.SNMPSIM_USER}",
                 f"--process-group={settings.SNMPSIM_GROUP}",
-                f"--data-dir={recording_file}",
+                f"--data-dir={os.path.dirname(recording_file)}",
                 f"--agent-udpv4-endpoint={ip_address}:{port}",
                 f"--v2c-arch",
                 f"--v2c-community={snmp_read_community}",
@@ -71,6 +71,8 @@ class SNMPSimOSCommandRunner:
         :param snmp_read_community:
         :return:
         """
+        self._create_sub_interface(ip_address)
+
         logger.info(f"Starting snmpsim recording '{recording_file}' on {ip_address}:{port} ...")
         output = subprocess.check_output(self._prepare_start_command(recording_file=recording_file,
                                                                      ip_address=ip_address,
@@ -78,7 +80,6 @@ class SNMPSimOSCommandRunner:
                                                                      snmp_read_community=snmp_read_community))
 
         logger.info(f"Command output: {output}")
-        self._create_sub_interface(ip_address)
 
     def stop(self, recording_file, ip_address, port, snmp_read_community):
         """

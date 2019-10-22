@@ -1,3 +1,5 @@
-SNMPSIM_SCRIPT_PATH = "/usr/local/bin/snmpsimd.py"
-SNMPSIM_USER = "nobody"
-SNMPSIM_GROUP = "nogroup"
+SNMPSIM_IFACE_NAME = "lo"
+SNMPSIM_SCRIPT_PATH = "/home/anthony/.virtualenvs/simsim/bin/snmpsimd.py"
+SNMPSIM_DAEMON_FOLDER = "/var/run/snmpsim"
+SNMPSIM_USER = "quali"
+SNMPSIM_GROUP = "quali"
