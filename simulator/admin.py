@@ -109,7 +109,7 @@ class RecordingAdmin(admin.ModelAdmin):
         :return:
         """
         try:
-            self._snmpsim_runner.stop(recording_file=obj.recording_file,
+            self._snmpsim_runner.stop(recording_file=obj.recording_file.path,
                                       ip_address=obj.ip_address,
                                       port=obj.port,
                                       snmp_read_community=obj.snmp_read_community)
@@ -130,7 +130,7 @@ class RecordingAdmin(admin.ModelAdmin):
         failed_recordings = []
         for recording in queryset:
             try:
-                self._snmpsim_runner.stop(recording_file=recording.recording_file,
+                self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                           ip_address=recording.ip_address,
                                           port=recording.port,
                                           snmp_read_community=recording.snmp_read_community)
@@ -153,7 +153,7 @@ class RecordingAdmin(admin.ModelAdmin):
         """
         if "_start" in request.POST:
             try:
-                self._snmpsim_runner.start(recording_file=obj.recording_file,
+                self._snmpsim_runner.start(recording_file=obj.recording_file.path,
                                            ip_address=obj.ip_address,
                                            port=obj.port,
                                            snmp_read_community=obj.snmp_read_community)
@@ -184,7 +184,7 @@ class RecordingAdmin(admin.ModelAdmin):
         """
         if "_start" in request.POST:
             try:
-                self._snmpsim_runner.start(recording_file=obj.recording_file,
+                self._snmpsim_runner.start(recording_file=obj.recording_file.path,
                                            ip_address=obj.ip_address,
                                            port=obj.port,
                                            snmp_read_community=obj.snmp_read_community)
@@ -214,7 +214,7 @@ class RecordingAdmin(admin.ModelAdmin):
         """
         recording = self.get_object(request, recording_id)
         try:
-            self._snmpsim_runner.start(recording_file=recording.recording_file,
+            self._snmpsim_runner.start(recording_file=recording.recording_file.path,
                                        ip_address=recording.ip_address,
                                        port=recording.port,
                                        snmp_read_community=recording.snmp_read_community)
@@ -238,7 +238,7 @@ class RecordingAdmin(admin.ModelAdmin):
         """
         recording = self.get_object(request, recording_id)
         try:
-            self._snmpsim_runner.stop(recording_file=recording.recording_file,
+            self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                       ip_address=recording.ip_address,
                                       port=recording.port,
                                       snmp_read_community=recording.snmp_read_community)
@@ -263,7 +263,7 @@ class RecordingAdmin(admin.ModelAdmin):
         failed_recordings = []
         for recording in queryset:
             try:
-                self._snmpsim_runner.start(recording_file=recording.recording_file,
+                self._snmpsim_runner.start(recording_file=recording.recording_file.path,
                                            ip_address=recording.ip_address,
                                            port=recording.port,
                                            snmp_read_community=recording.snmp_read_community)
@@ -291,7 +291,7 @@ class RecordingAdmin(admin.ModelAdmin):
         failed_recordings = []
         for recording in queryset:
             try:
-                self._snmpsim_runner.stop(recording_file=recording.recording_file,
+                self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                           ip_address=recording.ip_address,
                                           port=recording.port,
                                           snmp_read_community=recording.snmp_read_community)
