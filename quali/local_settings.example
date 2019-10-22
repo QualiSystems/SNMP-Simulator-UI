@@ -1,0 +1,3 @@
+SNMPSIM_SCRIPT_PATH = "/usr/local/bin/snmpsimd.py"
+SNMPSIM_USER = "nobody"
+SNMPSIM_GROUP = "nogroup"

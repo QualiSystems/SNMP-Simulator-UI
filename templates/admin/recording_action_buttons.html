@@ -1,0 +1,7 @@
+<div>
+    {% if recording.is_running %}
+        <a class="button" style="background-color: red" href="{% url 'admin:recording-stop' recording.pk %}">Stop</a>
+    {% else %}
+        <a class="button" style="background-color: green" href="{% url 'admin:recording-start' recording.pk %}">Run</a>
+    {% endif %}
+</div>

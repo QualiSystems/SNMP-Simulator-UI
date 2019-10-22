@@ -1,0 +1,2 @@
+Django==2.2.6
+# git+https://github.com/Costya-Y/snmpsim.git@featture-custom-community-name#egg=snmpsim
