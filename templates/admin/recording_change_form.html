@@ -11,8 +11,13 @@
 <input type="submit" value="{% trans 'Save and add another' %}" name="_addanother">
 
 {% if original.pk %}
-    <input type="submit" value="Save and stop" name="_save">
-    <input type="submit" value="Save and restart" class="default" name="_start">
+    {% if original.is_running %}
+        <input type="submit" value="Save and stop" name="_save">
+        <input type="submit" value="Save and restart" class="default" name="_start">
+    {% else %}
+        <input type="submit" value="Save" name="_save">
+        <input type="submit" value="Save and start" class="default" name="_start">
+    {% endif %}
 {% else %}
     <input type="submit" value="Save" name="_save">
     <input type="submit" value="Save and start" class="default" name="_start">
