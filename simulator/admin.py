@@ -1,4 +1,5 @@
 import logging
+import sys
 
 from django.conf.urls import url
 from django.contrib import admin, messages
@@ -19,6 +20,7 @@ admin.site.index_title = "Welcome to Quali Simulator"
 
 @admin.register(Recording)
 class RecordingAdmin(admin.ModelAdmin):
+    list_per_page = sys.maxsize
     change_form_template = "admin/recording_change_form.html"
 
     date_heirarchy = (
@@ -32,7 +34,6 @@ class RecordingAdmin(admin.ModelAdmin):
         "port",
         "snmp_read_community",
         "is_running",
-        "recording_file",
         "updated_at",
         "updated_by",
         "recording_actions"
