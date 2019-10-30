@@ -1,0 +1,12 @@
+- model: simulator.recording
+  pk: 1
+  fields:
+    name: F5 Big IP
+    ip_address: 1.1.1.44
+    port: 1611
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/1453782f04ae45f68521891169a677a6/Cisco_IOS_XR_Software_NCS-6000.snmprec
+    created_at: 2019-10-30 11:51:37.710194+00:00
+    updated_at: 2019-10-30 14:01:58.198258+00:00
+    updated_by: 1

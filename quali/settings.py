@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_media_fixtures',
     'simulator.apps.SimulatorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
