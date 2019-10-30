@@ -43,6 +43,10 @@ class RecordingAdmin(admin.ModelAdmin):
         "ip_address"
     )
 
+    readonly_fields = (
+        "is_running",
+    )
+
     list_filter = (
         "is_running",
         "created_at",
@@ -151,6 +155,18 @@ class RecordingAdmin(admin.ModelAdmin):
         :param obj:
         :return:
         """
+        if obj.is_running:
+            old_recording = Recording.objects.get(pk=obj.pk)
+
+            try:
+                self._snmpsim_runner.stop(recording_file=old_recording.recording_file.path,
+                                          ip_address=old_recording.ip_address,
+                                          port=old_recording.port,
+                                          snmp_read_community=old_recording.snmp_read_community)
+            except Exception:
+                logger.exception(f"Failed to stop old recording '{old_recording}' due to:")
+            obj.is_running = False
+
         if "_start" in request.POST:
             try:
                 self._snmpsim_runner.start(recording_file=obj.recording_file.path,
@@ -165,7 +181,7 @@ class RecordingAdmin(admin.ModelAdmin):
                                   level=messages.ERROR)
             else:
                 obj.is_running = True
-                self.message_user(request, f"Recording '{obj}' created and started")
+                self.message_user(request, f"Recording '{obj}' updated and started")
 
             obj.save()
 

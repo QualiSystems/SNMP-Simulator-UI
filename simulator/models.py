@@ -1,5 +1,10 @@
+import os
+import shutil
+import uuid
+
 from django.conf import settings
 from django.db import models
+from django.dispatch import receiver
 
 
 def upload_to(instance, filename):
@@ -9,7 +14,7 @@ def upload_to(instance, filename):
     :param filename:
     :return:
     """
-    return f"recordings/{instance.ip_address}_{instance.port}/{filename}"
+    return f"recordings/{uuid.uuid4().hex}/{filename}"
 
 
 class Recording(models.Model):
@@ -28,3 +33,25 @@ class Recording(models.Model):
 
     def __str__(self):
         return f"{self.name} IP: {self.ip_address}"
+
+
+#todo: move start/stop script logic here??
+@receiver(models.signals.post_delete, sender=Recording)
+def auto_delete_file_on_delete(sender, instance, **kwargs):
+    """Deletes file from filesystem when corresponding `Recording` object is deleted."""
+    shutil.rmtree(os.path.dirname(instance.recording_file.path), ignore_errors=True)
+
+
+@receiver(models.signals.pre_save, sender=Recording)
+def auto_delete_old_file_on_change(sender, instance, **kwargs):
+    """Deletes old file from filesystem when corresponding `Recording` object is updated with new file."""
+    if not instance.pk:
+        return False
+
+    try:
+        old_file = sender.objects.get(pk=instance.pk).recording_file
+    except sender.DoesNotExist:
+        return False
+
+    if instance.recording_file != old_file:
+        shutil.rmtree(os.path.dirname(old_file.path), ignore_errors=True)
