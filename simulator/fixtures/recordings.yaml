@@ -1927,3 +1927,27 @@
     created_at: 2019-10-30 22:05:18.809723+00:00
     updated_at: 2019-10-30 22:05:18.809788+00:00
     updated_by: null
+- model: simulator.recording
+  pk: 141
+  fields:
+    name: Palo Alto Networks PA-800 series firewall
+    ip_address: 192.168.73.5
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/d220d890694b4be1bf40298c295deda5/PaloAltoRecording.snmp.snmprec
+    created_at: 2019-10-30 22:05:13.560745+00:00
+    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_by: null
+- model: simulator.recording
+  pk: 142
+  fields:
+    name: CELab-SRX1400-Cluster
+    ip_address: 192.168.73.129
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/20b55f84b1a247baaccb9449f0d4214e/10.33.120.52.snmp.snmprec
+    created_at: 2019-10-30 22:05:13.560745+00:00
+    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_by: null
