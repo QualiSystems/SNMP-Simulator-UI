@@ -1951,3 +1951,15 @@
     created_at: 2019-10-30 22:05:13.560745+00:00
     updated_at: 2019-10-30 22:05:13.560782+00:00
     updated_by: null
+- model: simulator.recording
+  pk: 143
+  fields:
+    name: Cisco IOS XR Software (NCS-6000), Version 5.2.5
+    ip_address: 192.168.73.116
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/39ebc00ef2474f90bc0dff508449b75c/10.3.151.99.walk.t3s7La8.snmprec
+    created_at: 2019-10-30 22:05:13.560745+00:00
+    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_by: null
