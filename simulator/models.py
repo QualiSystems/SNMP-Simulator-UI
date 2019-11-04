@@ -17,6 +17,11 @@ def upload_to(instance, filename):
     return f"recordings/{uuid.uuid4().hex}/{filename}"
 
 
+class RecordingManager(models.Manager):
+    def is_ip_address_unique(self, ip_address):
+        return self.filter(ip_address=ip_address).count() == 1
+
+
 class Recording(models.Model):
     name = models.CharField(max_length=255)
     ip_address = models.GenericIPAddressField()
@@ -27,6 +32,8 @@ class Recording(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     updated_by = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True, on_delete=models.SET_NULL)
+
+    objects = RecordingManager()
 
     class Meta:
         unique_together = ('ip_address', 'port')

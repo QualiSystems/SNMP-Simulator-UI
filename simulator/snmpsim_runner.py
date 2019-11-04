@@ -81,13 +81,14 @@ class SNMPSimOSCommandRunner:
 
         logger.info(f"Command output: {output}")
 
-    def stop(self, recording_file, ip_address, port, snmp_read_community):
+    def stop(self, recording_file, ip_address, port, snmp_read_community, remove_sub_iface=False):
         """
 
         :param recording_file:
         :param ip_address:
         :param port:
         :param snmp_read_community:
+        :param remove_sub_iface:
         :return:
         """
         logger.info(f"Stopping snmpsim recording '{recording_file}' on {ip_address}:{port} ...")
@@ -97,8 +98,14 @@ class SNMPSimOSCommandRunner:
                                                     snmp_read_community=snmp_read_community)
         start_command = " ".join(start_command)
         os.system(f"pkill -f '{start_command}'")
-        self._remove_sub_interface(ip_address)
+
+        if remove_sub_iface:
+            self._remove_sub_interface(ip_address)
 
     def stop_all(self):
+        """
+
+        :return:
+        """
         logger.info(f"Stopping all snmpsim recordings ...")
         os.system(f"pkill -f '{settings.SNMPSIM_SCRIPT_PATH}'")

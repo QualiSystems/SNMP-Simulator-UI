@@ -117,7 +117,8 @@ class RecordingAdmin(admin.ModelAdmin):
             self._snmpsim_runner.stop(recording_file=obj.recording_file.path,
                                       ip_address=obj.ip_address,
                                       port=obj.port,
-                                      snmp_read_community=obj.snmp_read_community)
+                                      snmp_read_community=obj.snmp_read_community,
+                                      remove_sub_iface=Recording.objects.is_ip_address_unique(obj.ip_address))
         except Exception:
             logger.exception(f"Failed to stop recording '{obj}' due to:")
             self.message_user(request, f"Failed to stop recording: '{obj}'. Please check logs for the details",
@@ -138,7 +139,8 @@ class RecordingAdmin(admin.ModelAdmin):
                 self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                           ip_address=recording.ip_address,
                                           port=recording.port,
-                                          snmp_read_community=recording.snmp_read_community)
+                                          snmp_read_community=recording.snmp_read_community,
+                                          remove_sub_iface=Recording.objects.is_ip_address_unique(recording.ip_address))
             except Exception:
                 logger.exception(f"Failed to stop recording {recording} due to:")
                 failed_recordings.append(recording)
@@ -163,7 +165,9 @@ class RecordingAdmin(admin.ModelAdmin):
                 self._snmpsim_runner.stop(recording_file=old_recording.recording_file.path,
                                           ip_address=old_recording.ip_address,
                                           port=old_recording.port,
-                                          snmp_read_community=old_recording.snmp_read_community)
+                                          snmp_read_community=old_recording.snmp_read_community,
+                                          remove_sub_iface=Recording.objects.is_ip_address_unique(
+                                              old_recording.ip_address))
             except Exception:
                 logger.exception(f"Failed to stop old recording '{old_recording}' due to:")
             obj.is_running = False
@@ -258,7 +262,8 @@ class RecordingAdmin(admin.ModelAdmin):
             self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                       ip_address=recording.ip_address,
                                       port=recording.port,
-                                      snmp_read_community=recording.snmp_read_community)
+                                      snmp_read_community=recording.snmp_read_community,
+                                      remove_sub_iface=Recording.objects.is_ip_address_unique(recording.ip_address))
         except Exception:
             logger.exception(f"Failed to stop recording '{recording}' due to:")
             self.message_user(request, f"Failed to stop recording: '{recording}'. Please check logs for the details",
@@ -290,7 +295,6 @@ class RecordingAdmin(admin.ModelAdmin):
                 continue
 
             recording.is_running = True
-            # todo: update recordings in one SQL operation
             recording.save()
 
         if failed_recordings:
@@ -311,7 +315,8 @@ class RecordingAdmin(admin.ModelAdmin):
                 self._snmpsim_runner.stop(recording_file=recording.recording_file.path,
                                           ip_address=recording.ip_address,
                                           port=recording.port,
-                                          snmp_read_community=recording.snmp_read_community)
+                                          snmp_read_community=recording.snmp_read_community,
+                                          remove_sub_iface=Recording.objects.is_ip_address_unique(recording.ip_address))
             except Exception:
                 logger.exception(f"Failed to stop recording {recording} due to:")
                 failed_recordings.append(recording)
