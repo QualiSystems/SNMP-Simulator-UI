@@ -33,6 +33,14 @@ class SNMPSimOSCommandRunner:
                 f"--v2c-community={snmp_read_community}",
                 f"--daemonize"]
 
+    def _generate_sub_interface_name(self, ip_address):
+        """
+
+        :param ip_address:
+        :return:
+        """
+        return f"{settings.SNMPSIM_IFACE_NAME}:{ip_address.split('.')[-1]}"
+
     def _create_sub_interface(self, ip_address):
         """
 
@@ -41,7 +49,7 @@ class SNMPSimOSCommandRunner:
         """
         logger.info(f"Creating interface for the IP '{ip_address}' ...")
         output = subprocess.check_output(["ifconfig",
-                                          f"{settings.SNMPSIM_IFACE_NAME}:{ip_address}",
+                                          self._generate_sub_interface_name(ip_address),
                                           f"{ip_address}/24"])
 
         logger.info(f"Command output: {output}")
@@ -55,7 +63,7 @@ class SNMPSimOSCommandRunner:
         logger.info(f"Removing interface for the IP '{ip_address}' ...")
         try:
             output = subprocess.check_output(["ifconfig",
-                                              f"{settings.SNMPSIM_IFACE_NAME}:{ip_address}",
+                                              self._generate_sub_interface_name(ip_address),
                                               "down"],
                                              stderr=subprocess.STDOUT)
             logger.info(f"Command output: {output}")
