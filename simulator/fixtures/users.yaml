@@ -1,0 +1,75 @@
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$150000$7aeybM7QQZQL$WqDC8uf2avyTXl4mZL+uVnHYTXKRnDdoGEQbgJZAEtw=
+    last_login: 2019-11-05 14:32:09.412689+00:00
+    is_superuser: true
+    username: anton.p
+    first_name: Anton
+    last_name: Piddubnyi
+    email: anton.p@quali.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-05 14:30:09.616922+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$150000$5BAkzVar05ok$Cm03HY2LlXJtBIPh0joauB2tjEMxhtEmiE8iekjXCqI=
+    last_login: null
+    is_superuser: true
+    username: costya.y
+    first_name: Costya
+    last_name: Yevdyukhin
+    email: costya.y@quali.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-05 14:30:39.223885+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$150000$EEtGHCsaAe82$wLV9PxLUo9JBCLRgLLSeosGp9sCJ4YOnVpw9q6T+b3U=
+    last_login: null
+    is_superuser: true
+    username: yaroslav.n
+    first_name: Yaroslav
+    last_name: Nikonorov
+    email: yaroslav.n@quali.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-05 14:30:56.407082+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 4
+  fields:
+    password: pbkdf2_sha256$150000$Y65wwTFJZQRF$Xucvwfge8YTFgvsI9AQMFYwf8fGA4qn9v2FaDk1sTT4=
+    last_login: null
+    is_superuser: true
+    username: alexey
+    first_name: Alexey
+    last_name: Bogoslovskyi
+    email: alexey@quali.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-05 14:31:20.718260+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$150000$59B4smos8T34$lZnnd1wu2yE0bQtVXJgEmCmdTTsxu9mstpdamHKQDFk=
+    last_login: null
+    is_superuser: true
+    username: kyrylo.m
+    first_name: Kyrylo
+    last_name: Maksymenko
+    email: kyrylo.m@quali.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-05 14:31:39.021880+00:00
+    groups: []
+    user_permissions: []
