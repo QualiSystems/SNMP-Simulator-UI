@@ -20,7 +20,7 @@ admin.site.index_title = "Welcome to Quali Simulator"
 
 @admin.register(Recording)
 class RecordingAdmin(admin.ModelAdmin):
-    list_per_page = sys.maxsize
+    # list_per_page = sys.maxsize
     change_form_template = "admin/recording_change_form.html"
 
     date_heirarchy = (
