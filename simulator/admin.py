@@ -1,11 +1,12 @@
 import logging
-import sys
 
 from django.conf.urls import url
+from django.conf import settings
 from django.contrib import admin, messages
 from django.http import HttpResponseRedirect
 from django.template.loader import render_to_string
 from django.urls import reverse
+import ipaddress
 from simulator.snmpsim_runner import SNMPSimOSCommandRunner
 
 from .models import Recording
@@ -20,7 +21,6 @@ admin.site.index_title = "Welcome to Quali Simulator"
 
 @admin.register(Recording)
 class RecordingAdmin(admin.ModelAdmin):
-    # list_per_page = sys.maxsize
     change_form_template = "admin/recording_change_form.html"
 
     date_heirarchy = (
@@ -66,8 +66,14 @@ class RecordingAdmin(admin.ModelAdmin):
     ]
 
     def __init__(self, *args, **kwargs):
+        """
+
+        :param args:
+        :param kwargs:
+        """
         super().__init__(*args, **kwargs)
         self._snmpsim_runner = SNMPSimOSCommandRunner()
+        self._snmpsim_network = ipaddress.ip_network(settings.SNMPSIM_NETWORK)
 
     def recording_actions(self, obj):
         """
@@ -81,6 +87,10 @@ class RecordingAdmin(admin.ModelAdmin):
     recording_actions.allow_tags = True
 
     def get_urls(self):
+        """
+
+        :return:
+        """
         urls = super().get_urls()
         custom_urls = [
             url(
@@ -95,6 +105,28 @@ class RecordingAdmin(admin.ModelAdmin):
             ),
         ]
         return custom_urls + urls
+
+    def _get_free_ip(self):
+        """Find and suggest free IP address for the new recording
+
+        :return:
+        """
+        used_ips = Recording.objects.values_list("ip_address", flat=True)
+        for ip_addr in map(str, self._snmpsim_network.hosts()):
+            if ip_addr not in used_ips:
+                return ip_addr
+
+        return ""
+
+    def get_changeform_initial_data(self, request):
+        """
+
+        :param request:
+        :return:
+        """
+        return {
+            "ip_address": self._get_free_ip()
+        }
 
     def save_model(self, request, obj, form, change):
         """

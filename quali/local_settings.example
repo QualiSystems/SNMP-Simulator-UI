@@ -1,4 +1,5 @@
 SNMPSIM_IFACE_NAME = "lo"
+SNMPSIM_NETWORK = "192.168.73.2/24"
 SNMPSIM_SCRIPT_PATH = "/home/anthony/.virtualenvs/simsim/bin/snmpsimd.py"
 SNMPSIM_DAEMON_FOLDER = "/var/run/snmpsim"
 SNMPSIM_USER = "quali"
