@@ -33,6 +33,7 @@ class RecordingAdmin(admin.ModelAdmin):
         "ip_address",
         "port",
         "snmp_read_community",
+        "comment",
         "is_running",
         "updated_at",
         "updated_by",
@@ -41,6 +42,7 @@ class RecordingAdmin(admin.ModelAdmin):
 
     search_fields = (
         "name",
+        "comment",
         "ip_address"
     )
 
