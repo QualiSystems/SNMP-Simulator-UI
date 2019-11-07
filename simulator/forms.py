@@ -12,7 +12,7 @@ snmpsim_network = ipaddress.ip_network(settings.SNMPSIM_NETWORK)
 class RecordingForm(forms.ModelForm):
     class Meta:
         model = Recording
-        fields = ("name", "ip_address", "port", "snmp_read_community", "recording_file", "comment")
+        fields = ("name", "ip_address", "port", "snmp_read_community", "recording_file", "sys_description", "comment",)
         widgets = {
             'ip_address': apply_select2(forms.Select),
         }

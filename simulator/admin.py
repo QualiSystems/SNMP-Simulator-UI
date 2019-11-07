@@ -28,41 +28,32 @@ class RecordingAdmin(admin.ModelAdmin):
     )
 
     list_display = (
-        "id",
         "name",
         "ip_address",
         "port",
         "snmp_read_community",
-        "comment",
         "is_running",
         "updated_at",
         "updated_by",
-        "recording_actions"
+        "recording_actions",
     )
 
     search_fields = (
         "name",
+        "sys_description",
         "comment",
-        "ip_address"
+        "ip_address",
     )
 
     readonly_fields = (
+        "sys_description",
         "is_running",
     )
 
     list_filter = (
         "is_running",
-        "created_at",
-        "updated_by"
-    )
-
-    exclude = (
-        "id",
-        "added_by",
-        "is_running",
-        "created_at",
         "updated_at",
-        "updated_by"
+        "updated_by",
     )
 
     def __init__(self, *args, **kwargs):
