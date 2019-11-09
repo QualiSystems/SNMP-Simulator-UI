@@ -1,337 +1,395 @@
 - model: simulator.recording
   pk: 1
   fields:
-    name: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(2)N1(1), RELEASE
-      SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager Version
-      6.3(1),  Compiled 5/1/2014 23:00:00
+    name: Cisco NX-OS(tm) n6000
     ip_address: 192.168.73.2
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/7254685ec823447db4761002b87d33f3/10.89.143.167.walk.stargate.snmprec
+    sys_description: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(2)N1(1),
+      RELEASE SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager
+      Version 6.3(1),  Compiled 5/1/2014 23:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:13.516418+00:00
-    updated_at: 2019-10-30 22:05:13.516469+00:00
+    updated_at: 2019-11-09 19:39:57.711386+00:00
     updated_by: null
 - model: simulator.recording
   pk: 2
   fields:
-    name: "Cisco IOS Software, Catalyst 4500 L3 Switch Software (cat4500e-ENTSERVICESK9-M),\
-      \ Version 12.2(54)SG1, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Thu 27-Jan-11 12:07"
+    name: Cisco IOS Software, Catalyst 4500 L3 Switch Software
     ip_address: 192.168.73.3
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/03016d50290b4715a023902220daea18/10.89.143.147.walk.stargate.snmprec
+    sys_description: "Cisco IOS Software, Catalyst 4500 L3 Switch Software (cat4500e-ENTSERVICESK9-M),\
+      \ Version 12.2(54)SG1, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Thu 27-Jan-11 12:07"
+    comment: ''
     created_at: 2019-10-30 22:05:13.532377+00:00
-    updated_at: 2019-10-30 22:05:13.532419+00:00
+    updated_at: 2019-11-09 19:39:57.713702+00:00
     updated_by: null
 - model: simulator.recording
   pk: 3
   fields:
-    name: Cisco NX-OS(tm) n7000, Software (n7000-s1-dk9), Version 5.2(2), RELEASE
-      SOFTWARE Copyright (c) 2002-2011 by Cisco Systems, Inc. Compiled 8/9/2011 14:00:00
+    name: Cisco NX-OS(tm) n7000
     ip_address: 192.168.73.4
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/fea61e6dcb84478d8a18fb8929d46820/10.194.226.14.walk.stargate.snmprec
+    sys_description: Cisco NX-OS(tm) n7000, Software (n7000-s1-dk9), Version 5.2(2),
+      RELEASE SOFTWARE Copyright (c) 2002-2011 by Cisco Systems, Inc. Compiled 8/9/2011
+      14:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:13.549194+00:00
-    updated_at: 2019-10-30 22:05:13.549226+00:00
+    updated_at: 2019-11-09 19:39:57.715569+00:00
     updated_by: null
 - model: simulator.recording
   pk: 4
   fields:
-    name: Cisco NX-OS(tm) n3000, Software (n3000-uk9), Version 6.0(2)U6(1), RELEASE
-      SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc.   Compiled 4/9/2015
-      23:00:00
+    name: Cisco NX-OS(tm) n3000
     ip_address: 192.168.73.6
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8386bd9dcdd14ad6a26d3ac060eeaa38/172.23.44.37.walk.stargate.snmprec
+    sys_description: Cisco NX-OS(tm) n3000, Software (n3000-uk9), Version 6.0(2)U6(1),
+      RELEASE SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc.   Compiled 4/9/2015
+      23:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:13.560745+00:00
-    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_at: 2019-11-09 19:39:57.717963+00:00
     updated_by: null
 - model: simulator.recording
   pk: 5
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 4.3.4[Default]\r\n\
-      Copyright (c) 2015 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.7
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2af4d88fc4fc490ab9d5cfc1c3e6423d/10.233.30.225.walk.VER143r.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 4.3.4[Default]\r\
+      \nCopyright (c) 2015 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:13.572831+00:00
-    updated_at: 2019-10-30 22:05:13.572872+00:00
+    updated_at: 2019-11-09 19:39:57.720492+00:00
     updated_by: null
 - model: simulator.recording
   pk: 6
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
-      \ Version 15.0(1)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Sun 10-Jul-11 09:31\
-      \ by"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.8
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2e845bc41c9848ed873cf80053da0293/163.162.16.141.walk.ngnbrro.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
+      \ Version 15.0(1)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Sun 10-Jul-11 09:31\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:13.584806+00:00
-    updated_at: 2019-10-30 22:05:13.584842+00:00
+    updated_at: 2019-11-09 19:39:57.722719+00:00
     updated_by: null
 - model: simulator.recording
   pk: 7
   fields:
-    name: "Huawei Versatile Routing Platform Software \r\nVRP (R) software, Version\
-      \ 8.100 (PTN6900 V800R007C10SPC100) \r\nCopyright (C) 2012-2015 Huawei Technologies\
-      \ Co., Ltd. \r\nHUAWEI PTN 6900-2-M8"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 8.100
     ip_address: 192.168.73.9
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a36ce0b83ba1417fb6c194cf19dffce4/10.23.1.18.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software \r\nVRP (R) software,\
+      \ Version 8.100 (PTN6900 V800R007C10SPC100) \r\nCopyright (C) 2012-2015 Huawei\
+      \ Technologies Co., Ltd. \r\nHUAWEI PTN 6900-2-M8"
+    comment: ''
     created_at: 2019-10-30 22:05:13.596913+00:00
-    updated_at: 2019-10-30 22:05:13.596953+00:00
+    updated_at: 2019-11-09 19:39:57.724815+00:00
     updated_by: null
 - model: simulator.recording
   pk: 8
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) s72033_rp Software\
-      \ (s72033_rp-ADVIPSERVICESK9_WAN-M), Version 12.2(18)SXF16, RELEASE SOFTWARE\
-      \ (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright\
-      \ (c) 1986-2009 by cisco Systems, Inc"
+    name: Cisco Internetwork Operating System Software IOS (tm)
     ip_address: 192.168.73.10
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/dc259281ddd64c8088b82f618a9d25f7/163.162.16.77.walk.public.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) s72033_rp\
+      \ Software (s72033_rp-ADVIPSERVICESK9_WAN-M), Version 12.2(18)SXF16, RELEASE\
+      \ SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\n\
+      Copyright (c) 1986-2009 by cisco Systems, Inc"
+    comment: ''
     created_at: 2019-10-30 22:05:13.616398+00:00
-    updated_at: 2019-10-30 22:05:13.616438+00:00
+    updated_at: 2019-11-09 19:39:57.726975+00:00
     updated_by: null
 - model: simulator.recording
   pk: 9
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) s72033_rp Software\
-      \ (s72033_rp-ADVIPSERVICESK9_WAN-M), Version 12.2(18)SXF16, RELEASE SOFTWARE\
-      \ (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright\
-      \ (c) 1986-2009 by cisco Systems, Inc"
+    name: Cisco Internetwork Operating System Software IOS (tm)
     ip_address: 192.168.73.11
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/7cb6676c206f4035af8cacb17f7c5394/163.162.16.78.walk.public.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) s72033_rp\
+      \ Software (s72033_rp-ADVIPSERVICESK9_WAN-M), Version 12.2(18)SXF16, RELEASE\
+      \ SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\n\
+      Copyright (c) 1986-2009 by cisco Systems, Inc"
+    comment: ''
     created_at: 2019-10-30 22:05:13.628761+00:00
-    updated_at: 2019-10-30 22:05:13.628797+00:00
+    updated_at: 2019-11-09 19:39:57.729234+00:00
     updated_by: null
 - model: simulator.recording
   pk: 10
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
-      \ Version 15.4(3)S2, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 28-Jan-15 15:26\
-      \ by"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.12
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f1de29aff697400fbc410efdf59a95d8/163.162.16.95.walk.public.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
+      \ Version 15.4(3)S2, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 28-Jan-15 15:26\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:13.641249+00:00
-    updated_at: 2019-10-30 22:05:13.641286+00:00
+    updated_at: 2019-11-09 19:39:57.731315+00:00
     updated_by: null
 - model: simulator.recording
   pk: 11
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
-      \ Version 15.4(3)S2, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 28-Jan-15 15:26\
-      \ by"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.13
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/407cfad15a024f8180a60576977b4f2f/163.162.16.118.walk.public.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
+      \ Version 15.4(3)S2, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 28-Jan-15 15:26\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:13.676145+00:00
-    updated_at: 2019-10-30 22:05:13.676181+00:00
+    updated_at: 2019-11-09 19:39:57.733312+00:00
     updated_by: null
 - model: simulator.recording
   pk: 12
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
-      \ Version 15.0(1)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Sun 10-Jul-11 09:31\
-      \ by"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.14
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/880f6bdd35a34fbda4841c7ac011a23a/163.162.16.141.walk.ngnbrro.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
+      \ Version 15.0(1)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Sun 10-Jul-11 09:31\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:13.688356+00:00
-    updated_at: 2019-10-30 22:05:13.688386+00:00
+    updated_at: 2019-11-09 19:39:57.735384+00:00
     updated_by: null
 - model: simulator.recording
   pk: 13
   fields:
-    name: "Cisco IOS Software, s72033_rp Software (s72033_rp-ADVIPSERVICESK9_WAN-M),\
-      \ Version 12.2(33)SXI6, RELEASE SOFTWARE (fc4)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Mon 28-Mar-11 12:09\
-      \ by pr"
+    name: Cisco IOS Software, s72033_rp Software
     ip_address: 192.168.73.15
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2adcdf63b0114aeebb047fc421295481/163.162.16.253.walk.public.snmprec
+    sys_description: "Cisco IOS Software, s72033_rp Software (s72033_rp-ADVIPSERVICESK9_WAN-M),\
+      \ Version 12.2(33)SXI6, RELEASE SOFTWARE (fc4)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2011 by Cisco Systems, Inc.\r\nCompiled Mon 28-Mar-11 12:09\
+      \ by pr"
+    comment: ''
     created_at: 2019-10-30 22:05:13.702114+00:00
-    updated_at: 2019-10-30 22:05:13.702145+00:00
+    updated_at: 2019-11-09 19:39:57.737282+00:00
     updated_by: null
 - model: simulator.recording
   pk: 14
   fields:
-    name: "Cisco IOS Software, c7600rsp72043_rp Software (c7600rsp72043_rp-ADVIPSERVICESK9-M),\
-      \ Version 15.2(4)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Sun 01-Sep-13 16:2"
+    name: Cisco IOS Software, c7600rsp72043_rp Software
     ip_address: 192.168.73.16
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/6694d0ac168343d1a77853a4a4072b4e/163.162.23.212.walk.nagios.snmprec
+    sys_description: "Cisco IOS Software, c7600rsp72043_rp Software (c7600rsp72043_rp-ADVIPSERVICESK9-M),\
+      \ Version 15.2(4)S4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Sun 01-Sep-13 16:2"
+    comment: ''
     created_at: 2019-10-30 22:05:13.716742+00:00
-    updated_at: 2019-10-30 22:05:13.716776+00:00
+    updated_at: 2019-11-09 19:39:57.739213+00:00
     updated_by: null
 - model: simulator.recording
   pk: 15
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVENTERPRISEK9-M),\
-      \ Version 15.4(3)S1, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Wed 29-Oct-14 09:15\
-      \ by"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.17
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/363d3c3a95c440368d4c3055242dce88/163.162.23.216.walk.public.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVENTERPRISEK9-M),\
+      \ Version 15.4(3)S1, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Wed 29-Oct-14 09:15\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:13.731278+00:00
-    updated_at: 2019-10-30 22:05:13.731308+00:00
+    updated_at: 2019-11-09 19:39:57.741248+00:00
     updated_by: null
 - model: simulator.recording
   pk: 16
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) GS Software (C12KPRP-K4P-M),\
-      \ Version 12.0(32)SY16, RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2013 by cisco Systems, Inc.\r\nCompiled Thu 28-Mar-13"
+    name: Cisco Internetwork Operating System Software IOS (tm) GS Software
     ip_address: 192.168.73.18
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3e8cde1b46ce4ae28cd64cd0ed2c6087/163.162.116.76.walk.public.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) GS\
+      \ Software (C12KPRP-K4P-M), Version 12.0(32)SY16, RELEASE SOFTWARE (fc3)\r\n\
+      Technical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2013\
+      \ by cisco Systems, Inc.\r\nCompiled Thu 28-Mar-13"
+    comment: ''
     created_at: 2019-10-30 22:05:13.746171+00:00
-    updated_at: 2019-10-30 22:05:13.746202+00:00
+    updated_at: 2019-11-09 19:39:57.743267+00:00
     updated_by: null
 - model: simulator.recording
   pk: 17
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) GS Software (C12KPRP-K4P-M),\
-      \ Version 12.0(32)SY16, RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2013 by cisco Systems, Inc.\r\nCompiled Thu 28-Mar-13"
+    name: Cisco Internetwork Operating System Software IOS (tm) GS Software
     ip_address: 192.168.73.19
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a15390d318f047e992563a5fffaef2bd/163.162.116.93.walk.public.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) GS\
+      \ Software (C12KPRP-K4P-M), Version 12.0(32)SY16, RELEASE SOFTWARE (fc3)\r\n\
+      Technical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2013\
+      \ by cisco Systems, Inc.\r\nCompiled Thu 28-Mar-13"
+    comment: ''
     created_at: 2019-10-30 22:05:13.759085+00:00
-    updated_at: 2019-10-30 22:05:13.759116+00:00
+    updated_at: 2019-11-09 19:39:57.745231+00:00
     updated_by: null
 - model: simulator.recording
   pk: 18
   fields:
-    name: 'Juniper Networks, Inc. m120 internet router, kernel JUNOS 13.3R6.5, Build
-      date: 2015-03-26 20:32:15 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. m120 internet router
     ip_address: 192.168.73.20
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/d1e930036250462488d0a8279214d279/163.162.16.58.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. m120 internet router, kernel JUNOS 13.3R6.5,
+      Build date: 2015-03-26 20:32:15 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.792771+00:00
-    updated_at: 2019-10-30 22:05:13.792826+00:00
+    updated_at: 2019-11-09 19:39:57.747097+00:00
     updated_by: null
 - model: simulator.recording
   pk: 19
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 13.3R6.5, Build
-      date: 2015-03-26 20:32:15 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.21
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/b9520f789b9a4d08b4e38b1c62622d6d/163.162.16.62.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 13.3R6.5,
+      Build date: 2015-03-26 20:32:15 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.849374+00:00
-    updated_at: 2019-10-30 22:05:13.849424+00:00
+    updated_at: 2019-11-09 19:39:57.749300+00:00
     updated_by: null
 - model: simulator.recording
   pk: 20
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.2R5.8, Build
-      date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.22
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/5f22d78b3c2e459781e010b20aa9f224/163.162.116.176.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.2R5.8,
+      Build date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.865124+00:00
-    updated_at: 2019-10-30 22:05:13.865163+00:00
+    updated_at: 2019-11-09 19:39:57.751221+00:00
     updated_by: null
 - model: simulator.recording
   pk: 21
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.2R5.8, Build
-      date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.23
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/4384a97b20f544c2ac1d18e5fe2416b2/163.162.116.177.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.2R5.8,
+      Build date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.876249+00:00
-    updated_at: 2019-10-30 22:05:13.876279+00:00
+    updated_at: 2019-11-09 19:39:57.753077+00:00
     updated_by: null
 - model: simulator.recording
   pk: 22
   fields:
-    name: 'Juniper Networks, Inc. mx480 internet router, kernel JUNOS 14.2R5.8, Build
-      date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx480 internet router
     ip_address: 192.168.73.24
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/cf1092dd78ba4893b9e42d07989ec5df/163.162.116.235.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx480 internet router, kernel JUNOS 14.2R5.8,
+      Build date: 2015-11-25 02:39:45 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.887839+00:00
-    updated_at: 2019-10-30 22:05:13.887869+00:00
+    updated_at: 2019-11-09 19:39:57.754883+00:00
     updated_by: null
 - model: simulator.recording
   pk: 23
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1F4.15, Build
-      date: 2015-12-23 20:41:13 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.25
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/fbfbe2966f664b69b5595692de6d592a/163.162.216.143.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1F4.15,
+      Build date: 2015-12-23 20:41:13 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.900463+00:00
-    updated_at: 2019-10-30 22:05:13.900497+00:00
+    updated_at: 2019-11-09 19:39:57.756852+00:00
     updated_by: null
 - model: simulator.recording
   pk: 24
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1F4.15, Build
-      date: 2015-12-23 20:41:13 UTC Copyright (c) 1996-2015 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.26
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a1d40e96687645419f538bdc10c39108/163.162.216.145.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1F4.15,
+      Build date: 2015-12-23 20:41:13 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:13.913450+00:00
-    updated_at: 2019-10-30 22:05:13.913487+00:00
+    updated_at: 2019-11-09 19:39:57.758691+00:00
     updated_by: null
 - model: simulator.recording
   pk: 25
@@ -342,8 +400,10 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/b3425851ce774a1e98605b20f12d432a/172.25.10.10.walk.cisco.snmprec
+    sys_description: Cisco Controller
+    comment: ''
     created_at: 2019-10-30 22:05:13.925123+00:00
-    updated_at: 2019-10-30 22:05:13.925156+00:00
+    updated_at: 2019-11-09 19:39:57.760559+00:00
     updated_by: null
 - model: simulator.recording
   pk: 26
@@ -354,62 +414,72 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/ba97001d0d5c4221be2b54afca6afd27/192.168.2.41.walk.glimmerPublic.snmprec
+    sys_description: Glimmerglass IOS Optical Switch System
+    comment: ''
     created_at: 2019-10-30 22:05:13.937642+00:00
-    updated_at: 2019-10-30 22:05:13.937677+00:00
+    updated_at: 2019-11-09 19:39:57.762434+00:00
     updated_by: null
 - model: simulator.recording
   pk: 27
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.29
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/5f9c023baf944345893fc237491c8984/10.182.151.5.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:13.959059+00:00
-    updated_at: 2019-10-30 22:05:13.959099+00:00
+    updated_at: 2019-11-09 19:39:57.764240+00:00
     updated_by: null
 - model: simulator.recording
   pk: 28
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.30
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/fd58ade5f15d4ce78882fea63a523cd9/10.182.151.8.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:14.067840+00:00
-    updated_at: 2019-10-30 22:05:14.067903+00:00
+    updated_at: 2019-11-09 19:39:57.766214+00:00
     updated_by: null
 - model: simulator.recording
   pk: 29
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D160,
-      Build date: 2016-04-25 13:47:29 UTC Copyright (c) 1996-2016 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.31
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/c37c000c606f47268980971580a51e97/10.182.104.70.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D160,
+      Build date: 2016-04-25 13:47:29 UTC Copyright (c) 1996-2016 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:14.091637+00:00
-    updated_at: 2019-10-30 22:05:14.091675+00:00
+    updated_at: 2019-11-09 19:39:57.768078+00:00
     updated_by: null
 - model: simulator.recording
   pk: 30
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D105.16,
-      Build date: 2015-08-05 06:05:44 UTC Copyright (c) 1996-2015 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.32
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2f02b941494445c99e9d6595d072270a/10.182.104.100.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D105.16,
+      Build date: 2015-08-05 06:05:44 UTC Copyright (c) 1996-2015 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:14.103003+00:00
-    updated_at: 2019-10-30 22:05:14.103033+00:00
+    updated_at: 2019-11-09 19:39:57.770034+00:00
     updated_by: null
 - model: simulator.recording
   pk: 31
@@ -420,132 +490,152 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/bbe7a8c99b964c5ab2eed7ba55f05fe6/10.3.1.27.walk.Quali518979.snmprec
+    sys_description: Cisco Adaptive Security Appliance Version 9.2(2)4
+    comment: ''
     created_at: 2019-10-30 22:05:14.113844+00:00
-    updated_at: 2019-10-30 22:05:14.113881+00:00
+    updated_at: 2019-11-09 19:39:57.771902+00:00
     updated_by: null
 - model: simulator.recording
   pk: 32
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) C2950 Software\
-      \ (C2950-I6K2L2Q4-M), Version 12.1(22)EA14, RELEASE SOFTWARE (fc1)\r\nTechnical\
-      \ Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2010 by cisco\
-      \ Systems, Inc.\r\nCompiled Tue 26-O"
+    name: Cisco Internetwork Operating System Software IOS (tm) C2950 Software
     ip_address: 192.168.73.34
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/4bb9e6d4933e4bf998e4c1d4315bf33a/192.168.42.235.walk.Cisco.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) C2950\
+      \ Software (C2950-I6K2L2Q4-M), Version 12.1(22)EA14, RELEASE SOFTWARE (fc1)\r\
+      \nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2010\
+      \ by cisco Systems, Inc.\r\nCompiled Tue 26-O"
+    comment: ''
     created_at: 2019-10-30 22:05:14.125861+00:00
-    updated_at: 2019-10-30 22:05:14.125903+00:00
+    updated_at: 2019-11-09 19:39:57.773779+00:00
     updated_by: null
 - model: simulator.recording
   pk: 33
   fields:
-    name: "S5710-52X-LI-AC \r\nHuawei Versatile Routing Platform Software \r\n VRP\
-      \ (R) software,Version 5.160 (S5710 V200R008C00SPC500) \r\n Copyright (C) 2007\
-      \ Huawei Technologies Co., Ltd."
+    name: S5710-52X-LI-AC Huawei Versatile Routing Platform Software
     ip_address: 192.168.73.35
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/c859bbe49b9649839e4144d917b3b792/172.19.0.36.walk.esdkr0key.snmprec
+    sys_description: "S5710-52X-LI-AC \r\nHuawei Versatile Routing Platform Software\
+      \ \r\n VRP (R) software,Version 5.160 (S5710 V200R008C00SPC500) \r\n Copyright\
+      \ (C) 2007 Huawei Technologies Co., Ltd."
+    comment: ''
     created_at: 2019-10-30 22:05:14.137910+00:00
-    updated_at: 2019-10-30 22:05:14.137951+00:00
+    updated_at: 2019-11-09 19:39:57.776138+00:00
     updated_by: null
 - model: simulator.recording
   pk: 34
   fields:
-    name: "Cisco IOS Software, C2951 Software (C2951-UNIVERSALK9-M), Version 15.4(3)M3,\
-      \ RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Fri 05-Jun-15 15:30\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C2951 Software
     ip_address: 192.168.73.36
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/6824dce2694448e482a88364e0a154fd/10.233.29.71.walk.VER143r.snmprec
+    sys_description: "Cisco IOS Software, C2951 Software (C2951-UNIVERSALK9-M), Version\
+      \ 15.4(3)M3, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Fri 05-Jun-15 15:30\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:14.149932+00:00
-    updated_at: 2019-10-30 22:05:14.149961+00:00
+    updated_at: 2019-11-09 19:39:57.778872+00:00
     updated_by: null
 - model: simulator.recording
   pk: 35
   fields:
-    name: "Cisco IOS Software, C3900e Software (C3900e-UNIVERSALK9-M), Version 15.1(4)M9,\
-      \ RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Fri 12-Sep-14 12:57\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C3900e Software
     ip_address: 192.168.73.37
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2c88824b0fba4d57a337b22a42c1cc9a/10.233.29.75.walk.VER143r.snmprec
+    sys_description: "Cisco IOS Software, C3900e Software (C3900e-UNIVERSALK9-M),\
+      \ Version 15.1(4)M9, RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Fri 12-Sep-14 12:57\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:14.161290+00:00
-    updated_at: 2019-10-30 22:05:14.161319+00:00
+    updated_at: 2019-11-09 19:39:57.781461+00:00
     updated_by: null
 - model: simulator.recording
   pk: 36
   fields:
-    name: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version\
-      \ 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
-      \ by mcpre"
+    name: Cisco IOS Software, ISR Software
     ip_address: 192.168.73.38
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3e3863f028a84ccca2f90c8dd25f4c53/10.233.30.92.walk.VER143r.snmprec
+    sys_description: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),\
+      \ Version 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
+      \ by mcpre"
+    comment: ''
     created_at: 2019-10-30 22:05:14.171772+00:00
-    updated_at: 2019-10-30 22:05:14.171801+00:00
+    updated_at: 2019-11-09 19:39:57.783781+00:00
     updated_by: null
 - model: simulator.recording
   pk: 37
   fields:
-    name: Brocade VDX Switch.
+    name: Brocade VDX Switch
     ip_address: 192.168.73.39
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/d6408505e96248ffa86e082d63cd9c9c/10.10.111.3.walk.public.snmprec
+    sys_description: Brocade VDX Switch.
+    comment: ''
     created_at: 2019-10-30 22:05:14.183176+00:00
-    updated_at: 2019-10-30 22:05:14.183207+00:00
+    updated_at: 2019-11-09 19:39:57.786138+00:00
     updated_by: null
 - model: simulator.recording
   pk: 38
   fields:
-    name: Brocade VDX Switch.
+    name: Brocade VDX Switch
     ip_address: 192.168.73.40
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/b1574169141f4a1c991aa47c42930435/10.10.111.3.walk.public.snmprec
+    sys_description: Brocade VDX Switch.
+    comment: ''
     created_at: 2019-10-30 22:05:14.195286+00:00
-    updated_at: 2019-10-30 22:05:14.195317+00:00
+    updated_at: 2019-11-09 19:39:57.788121+00:00
     updated_by: null
 - model: simulator.recording
   pk: 39
   fields:
-    name: Brocade VDX Switch.
+    name: Brocade VDX Switch
     ip_address: 192.168.73.41
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/4d61ce673ba4484c9fe7bd607f778996/10.10.111.3.walk.public.snmprec
+    sys_description: Brocade VDX Switch.
+    comment: ''
     created_at: 2019-10-30 22:05:14.208970+00:00
-    updated_at: 2019-10-30 22:05:14.209006+00:00
+    updated_at: 2019-11-09 19:39:57.790181+00:00
     updated_by: null
 - model: simulator.recording
   pk: 40
   fields:
-    name: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(2)N1(1), RELEASE
-      SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager Version
-      6.3(1),  Compiled 5/1/2014 23:00:00
+    name: Cisco NX-OS(tm) n6000
     ip_address: 192.168.73.42
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/d736abe0e1ff4690a9812a7bf9a26b8c/10.6.254.213.walk.stargate.snmprec
+    sys_description: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(2)N1(1),
+      RELEASE SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager
+      Version 6.3(1),  Compiled 5/1/2014 23:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:14.224059+00:00
-    updated_at: 2019-10-30 22:05:14.224091+00:00
+    updated_at: 2019-11-09 19:39:57.792018+00:00
     updated_by: null
 - model: simulator.recording
   pk: 41
@@ -556,8 +646,10 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e914974386b54cd992d8c4233754719f/10.3.1.11.walk.Quali518979.snmprec
+    sys_description: Cisco Controller
+    comment: ''
     created_at: 2019-10-30 22:05:14.234593+00:00
-    updated_at: 2019-10-30 22:05:14.234623+00:00
+    updated_at: 2019-11-09 19:39:57.793938+00:00
     updated_by: null
 - model: simulator.recording
   pk: 42
@@ -568,466 +660,532 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f55d861dab68417cb30bb39e520ff828/10.3.1.27.walk.Quali518979.snmprec
+    sys_description: Cisco Adaptive Security Appliance Version 9.2(2)4
+    comment: ''
     created_at: 2019-10-30 22:05:14.246675+00:00
-    updated_at: 2019-10-30 22:05:14.246704+00:00
+    updated_at: 2019-11-09 19:39:57.795885+00:00
     updated_by: null
 - model: simulator.recording
   pk: 43
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.45
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1f6a298d36f34304ae5f8368df87e216/10.182.151.3.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:14.271447+00:00
-    updated_at: 2019-10-30 22:05:14.271480+00:00
+    updated_at: 2019-11-09 19:39:57.797888+00:00
     updated_by: null
 - model: simulator.recording
   pk: 44
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.46
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9431083aa7fc4d48a47318a74ae1770f/10.182.151.6.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:14.295142+00:00
-    updated_at: 2019-10-30 22:05:14.295186+00:00
+    updated_at: 2019-11-09 19:39:57.799811+00:00
     updated_by: null
 - model: simulator.recording
   pk: 45
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.47
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/add158088c3e412c8d13eab0225f5ae2/10.182.151.3.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:14.327212+00:00
-    updated_at: 2019-10-30 22:05:14.327259+00:00
+    updated_at: 2019-11-09 19:39:57.801727+00:00
     updated_by: null
 - model: simulator.recording
   pk: 46
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\nCopyright\
-      \ (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S)
     ip_address: 192.168.73.48
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1ed9a11229bd4767af1d2ed1e08b95e5/10.182.151.6.walk.vipernet.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S),  Version 5.1.4[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:14.356464+00:00
-    updated_at: 2019-10-30 22:05:14.356513+00:00
+    updated_at: 2019-11-09 19:39:57.803532+00:00
     updated_by: null
 - model: simulator.recording
   pk: 47
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1-20160803_161_x60.0,
-      Build date: 2016-08-03 05:56:41 UTC Copyright (c) 1996-2016 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.49
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9d3d15acd4ea49e29f41a19bf4008b04/10.182.104.70.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1-20160803_161_x60.0,
+      Build date: 2016-08-03 05:56:41 UTC Copyright (c) 1996-2016 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:14.466154+00:00
-    updated_at: 2019-10-30 22:05:14.466223+00:00
+    updated_at: 2019-11-09 19:39:57.805390+00:00
     updated_by: null
 - model: simulator.recording
   pk: 48
   fields:
-    name: 'Ericsson IPOS-16.3.0.0.400-Release
+    name: Ericsson IPOS-16.3.0.0.400-Release
+    ip_address: 192.168.73.50
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/98035e0f6dad427f8aec0375a8326fe9/10.126.75.215.walk.test.snmprec
+    sys_description: 'Ericsson IPOS-16.3.0.0.400-Release
 
       Built by ciflash@eussjblx1014.sj.us.am.ericsson.se 2016-05-14 14:41:41-0700
 
       Copyright (C) 1998-2016, Ericsson AB. All rights reserved.
 
       Current Platform is SSR 8020'
-    ip_address: 192.168.73.50
-    port: 161
-    snmp_read_community: public
-    is_running: false
-    recording_file: recordings/98035e0f6dad427f8aec0375a8326fe9/10.126.75.215.walk.test.snmprec
+    comment: ''
     created_at: 2019-10-30 22:05:14.484174+00:00
-    updated_at: 2019-10-30 22:05:14.484222+00:00
+    updated_at: 2019-11-09 19:39:57.807299+00:00
     updated_by: null
 - model: simulator.recording
   pk: 49
   fields:
-    name: 'Ericsson IPOS-16.4.0.0-03Aug12:22:242016-ciflash
-
-      Built by ciflash@eussjblx1032.sj.us.am.ericsson.se Wed Aug 3 12:22:24 PDT 2016
-
-      Current Platform is Router 8801'
+    name: Ericsson IPOS-16.4.0.0-03Aug12:22:242016-ciflash
     ip_address: 192.168.73.51
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/993e5100d7f746b4abb38f33bcd6ebcc/10.126.76.66.walk.test.snmprec
+    sys_description: 'Ericsson IPOS-16.4.0.0-03Aug12:22:242016-ciflash
+
+      Built by ciflash@eussjblx1032.sj.us.am.ericsson.se Wed Aug 3 12:22:24 PDT 2016
+
+      Current Platform is Router 8801'
+    comment: ''
     created_at: 2019-10-30 22:05:15.099207+00:00
-    updated_at: 2019-10-30 22:05:15.099256+00:00
+    updated_at: 2019-11-09 19:39:57.809331+00:00
     updated_by: null
 - model: simulator.recording
   pk: 50
   fields:
-    name: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.9.48-Release
-
-      Built by sysbuild@eussjlx7008.sj.us.am.ericsson.se Fri May 22 05:30:08 PDT 2015'
+    name: Redback Networks SmartEdge OS Version SEOS-12.1.1.9.48-Release
     ip_address: 192.168.73.52
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/18af1e2d561e4302a408331113fa6ce2/10.126.133.172.walk.test.snmprec
+    sys_description: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.9.48-Release
+
+      Built by sysbuild@eussjlx7008.sj.us.am.ericsson.se Fri May 22 05:30:08 PDT 2015'
+    comment: ''
     created_at: 2019-10-30 22:05:15.114364+00:00
-    updated_at: 2019-10-30 22:05:15.114409+00:00
+    updated_at: 2019-11-09 19:39:57.811263+00:00
     updated_by: null
 - model: simulator.recording
   pk: 51
   fields:
-    name: Brocade Communications Systems, Inc. ICX7750-48F, IronWare Version 08.0.40aT203
-      Compiled on Apr  7 2016 at 07:17:55 labeled as SWR08040a
+    name: Brocade Communications Systems, Inc. ICX7750-48F, IronWare
     ip_address: 192.168.73.53
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3380aed2bcfb4a918dc81640bfb9b00e/10.254.11.69.walk.snmprec
+    sys_description: Brocade Communications Systems, Inc. ICX7750-48F, IronWare Version
+      08.0.40aT203 Compiled on Apr  7 2016 at 07:17:55 labeled as SWR08040a
+    comment: ''
     created_at: 2019-10-30 22:05:15.148063+00:00
-    updated_at: 2019-10-30 22:05:15.148105+00:00
+    updated_at: 2019-11-09 19:39:57.813336+00:00
     updated_by: null
 - model: simulator.recording
   pk: 52
   fields:
-    name: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.1(0)N1(1a), RELEASE
-      SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager Version
-      6.0(2)N1(1),Compiled 1/7/2015 22:00:00
+    name: Cisco NX-OS(tm) n6000
     ip_address: 192.168.73.54
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/dfa17cdd536743039d1ea2618474203c/10.6.244.35.walk.stargate.snmprec
+    sys_description: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.1(0)N1(1a),
+      RELEASE SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager
+      Version 6.0(2)N1(1),Compiled 1/7/2015 22:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:15.163835+00:00
-    updated_at: 2019-10-30 22:05:15.163874+00:00
+    updated_at: 2019-11-09 19:39:57.815249+00:00
     updated_by: null
 - model: simulator.recording
   pk: 53
   fields:
-    name: 'Juniper Networks, Inc. E320 Edge Routing Switch SW Version : (13.3.2 patch-0.1.1
-      [BuildId 16031]) Build Date : December 11, 2014  15:45 Copyright (c) 1999-2013
-      Juniper Networks, Inc.  All rights reserved.'
+    name: Juniper Networks, Inc. E320 Edge Routing Switch
     ip_address: 192.168.73.55
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/fcfc3c757af14389b66c3f41a4b6f027/163.162.16.111.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. E320 Edge Routing Switch SW Version :
+      (13.3.2 patch-0.1.1 [BuildId 16031]) Build Date : December 11, 2014  15:45 Copyright
+      (c) 1999-2013 Juniper Networks, Inc.  All rights reserved.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.174735+00:00
-    updated_at: 2019-10-30 22:05:15.174767+00:00
+    updated_at: 2019-11-09 19:39:57.817188+00:00
     updated_by: null
 - model: simulator.recording
   pk: 54
   fields:
-    name: 'Juniper Networks, Inc. ERX-1440 Edge Routing Switch SW Version : (13.0.3
-      release-0.0 [BuildId 15196]) Build Date : April 10, 2013  19:51 Copyright (c)
-      1999, 2001 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. ERX-1440 Edge Routing Switch
     ip_address: 192.168.73.56
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3cf30aad299d47838e61ac19e1212e34/163.162.16.125.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. ERX-1440 Edge Routing Switch SW Version
+      : (13.0.3 release-0.0 [BuildId 15196]) Build Date : April 10, 2013  19:51 Copyright
+      (c) 1999, 2001 Juniper Networks, Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.192151+00:00
-    updated_at: 2019-10-30 22:05:15.192192+00:00
+    updated_at: 2019-11-09 19:39:57.819114+00:00
     updated_by: null
 - model: simulator.recording
   pk: 55
   fields:
-    name: "Cisco Internetwork Operating System Software \r\nIOS (tm) c6sup2_rp Software\
-      \ (c6sup2_rp-PSV-M), Version 12.1(12c)E4, EARLY DEPLOYMENT RELEASE SOFTWARE\
-      \ (fc1)\r\nTAC Support: http://www.cisco.com/tac\r\nCopyright (c) 1986-2002\
-      \ by cisco Systems, Inc.\r\nCompiled Mon"
+    name: Cisco Internetwork Operating System Software IOS (tm)
     ip_address: 192.168.73.57
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/41b142ef07094e8792c99ec31b50d1c2/163.162.16.247.walk.NetMon.snmprec
+    sys_description: "Cisco Internetwork Operating System Software \r\nIOS (tm) c6sup2_rp\
+      \ Software (c6sup2_rp-PSV-M), Version 12.1(12c)E4, EARLY DEPLOYMENT RELEASE\
+      \ SOFTWARE (fc1)\r\nTAC Support: http://www.cisco.com/tac\r\nCopyright (c) 1986-2002\
+      \ by cisco Systems, Inc.\r\nCompiled Mon"
+    comment: ''
     created_at: 2019-10-30 22:05:15.209758+00:00
-    updated_at: 2019-10-30 22:05:15.209795+00:00
+    updated_at: 2019-11-09 19:39:57.821031+00:00
     updated_by: null
 - model: simulator.recording
   pk: 56
   fields:
-    name: 'Brocade MLXe (System Mode: MLX), IronWare Version V5.9.0T163 Compiled on
-      Aug 12 2015 at 11:51:08 labeled as V5.9.00'
+    name: 'Brocade MLXe (System Mode: MLX), IronWare Version V5.9.0T163'
     ip_address: 192.168.73.58
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9879bd31ffdc4d0496da4c72de92fed6/10.254.6.23.walk.public.snmprec
+    sys_description: 'Brocade MLXe (System Mode: MLX), IronWare Version V5.9.0T163
+      Compiled on Aug 12 2015 at 11:51:08 labeled as V5.9.00'
+    comment: ''
     created_at: 2019-10-30 22:05:15.221800+00:00
-    updated_at: 2019-10-30 22:05:15.221836+00:00
+    updated_at: 2019-11-09 19:39:57.822961+00:00
     updated_by: null
 - model: simulator.recording
   pk: 57
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D146.1,
-      Build date: 2016-08-22 22:36:23 UTC Copyright (c) 1996-2016 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.59
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/309d8b1274e84516bf0e03b4d39a25b8/10.182.104.91.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 14.1X50-D146.1,
+      Build date: 2016-08-22 22:36:23 UTC Copyright (c) 1996-2016 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.406728+00:00
-    updated_at: 2019-10-30 22:05:15.406777+00:00
+    updated_at: 2019-11-09 19:39:57.824832+00:00
     updated_by: null
 - model: simulator.recording
   pk: 58
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1X60-D35,
-      Build date: 2016-09-26 11:08:23 UTC Copyright (c) 1996-2016 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.60
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/c4119c655420499cab1916da88be4e4e/10.182.104.70.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1X60-D35,
+      Build date: 2016-09-26 11:08:23 UTC Copyright (c) 1996-2016 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.422069+00:00
-    updated_at: 2019-10-30 22:05:15.422109+00:00
+    updated_at: 2019-11-09 19:39:57.826684+00:00
     updated_by: null
 - model: simulator.recording
   pk: 59
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1X60-D35,
-      Build date: 2016-09-26 11:08:23 UTC Copyright (c) 1996-2016 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.61
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/750f6a32a5bd4f43a05ee17e4cd69b5d/10.182.104.73.walk.public.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1X60-D35,
+      Build date: 2016-09-26 11:08:23 UTC Copyright (c) 1996-2016 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.434479+00:00
-    updated_at: 2019-10-30 22:05:15.434520+00:00
+    updated_at: 2019-11-09 19:39:57.828524+00:00
     updated_by: null
 - model: simulator.recording
   pk: 60
   fields:
-    name: "Huawei Versatile Routing Platform Software \r\nVRP (R) software, Version\
-      \ 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei Technologies\
-      \ Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 8.100
     ip_address: 192.168.73.62
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/98f2f4a3b3454d6a8d01310af5922835/172.19.47.75.walk.Test1234.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software \r\nVRP (R) software,\
+      \ Version 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei\
+      \ Technologies Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    comment: ''
     created_at: 2019-10-30 22:05:15.446563+00:00
-    updated_at: 2019-10-30 22:05:15.446600+00:00
+    updated_at: 2019-11-09 19:39:57.830488+00:00
     updated_by: null
 - model: simulator.recording
   pk: 61
   fields:
-    name: "Huawei Versatile Routing Platform Software \r\nVRP (R) software, Version\
-      \ 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei Technologies\
-      \ Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 8.100
     ip_address: 192.168.73.63
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/dbe3eea83ca6493c870d25d3be824645/172.19.47.75.walk.Test1234.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software \r\nVRP (R) software,\
+      \ Version 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei\
+      \ Technologies Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    comment: ''
     created_at: 2019-10-30 22:05:15.458346+00:00
-    updated_at: 2019-10-30 22:05:15.458377+00:00
+    updated_at: 2019-11-09 19:39:57.832413+00:00
     updated_by: null
 - model: simulator.recording
   pk: 62
   fields:
-    name: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version\
-      \ 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
-      \ by mcpre"
+    name: Cisco IOS Software, ISR Software
     ip_address: 192.168.73.64
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/46188042ccd04ab9a7963ca6efddbd26/10.198.226.19.walk.tasMANia.snmprec
+    sys_description: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),\
+      \ Version 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
+      \ by mcpre"
+    comment: ''
     created_at: 2019-10-30 22:05:15.469817+00:00
-    updated_at: 2019-10-30 22:05:15.469847+00:00
+    updated_at: 2019-11-09 19:39:57.834522+00:00
     updated_by: null
 - model: simulator.recording
   pk: 63
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.65
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/d7402bb1b1d942e5b76c84bc2f1ef5f1/10.4.6.52.walk.NEP6snmpro.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:15.482909+00:00
-    updated_at: 2019-10-30 22:05:15.482943+00:00
+    updated_at: 2019-11-09 19:39:57.836334+00:00
     updated_by: null
 - model: simulator.recording
   pk: 64
   fields:
-    name: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(6)N1(1), RELEASE
-      SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager Version
-      6.0(2)N1(1),  Compiled 4/7/2015 4:00:00
+    name: Cisco NX-OS(tm) n6000
     ip_address: 192.168.73.66
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/6f36e2179ef04a7d84346245478de9cd/10.4.6.1.walk.NEP6snmpro.snmprec
+    sys_description: Cisco NX-OS(tm) n6000, Software (n6000-uk9), Version 7.0(6)N1(1),
+      RELEASE SOFTWARE Copyright (c) 2002-2012 by Cisco Systems, Inc. Device Manager
+      Version 6.0(2)N1(1),  Compiled 4/7/2015 4:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:15.497563+00:00
-    updated_at: 2019-10-30 22:05:15.497596+00:00
+    updated_at: 2019-11-09 19:39:57.838158+00:00
     updated_by: null
 - model: simulator.recording
   pk: 65
   fields:
-    name: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
-      \ Version 12.2(33)SRE9a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Thu 17-Oct-13 07:1"
+    name: Cisco IOS Software, c7600s72033_rp Software
     ip_address: 192.168.73.67
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/bfd8dfbe3ddc4d1ebf6391c8c21b6657/10.4.7.109.walk.NEP6snmpro.snmprec
+    sys_description: "Cisco IOS Software, c7600s72033_rp Software (c7600s72033_rp-ADVIPSERVICESK9-M),\
+      \ Version 12.2(33)SRE9a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Thu 17-Oct-13 07:1"
+    comment: ''
     created_at: 2019-10-30 22:05:15.509571+00:00
-    updated_at: 2019-10-30 22:05:15.509603+00:00
+    updated_at: 2019-11-09 19:39:57.840039+00:00
     updated_by: null
 - model: simulator.recording
   pk: 66
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.4[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.68
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f41e303e7932477e87c4bb7e9a45a78a/10.215.12.14.walk.bblab.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.4[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:15.523976+00:00
-    updated_at: 2019-10-30 22:05:15.524008+00:00
+    updated_at: 2019-11-09 19:39:57.842154+00:00
     updated_by: null
 - model: simulator.recording
   pk: 67
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.4[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.69
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a861d5b5c70141fb9dfb6fd9ad5f29b7/10.215.12.14.walk.bblab.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.4[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:15.536889+00:00
-    updated_at: 2019-10-30 22:05:15.536926+00:00
+    updated_at: 2019-11-09 19:39:57.843989+00:00
     updated_by: null
 - model: simulator.recording
   pk: 68
   fields:
-    name: 'Ericsson IPOS-16.5.0.0.99-Release
-
-      Built by ciflash@eussjblx1005.sj.us.am.ericsson.se 2016-09-26 20:39:50-0700
-
-      Copyright (C) 1998-2016, Ericsson AB. All rights reserved.
-
-      Current Platform is SSR 8020'
+    name: Ericsson IPOS-16.5.0.0.99-Release
     ip_address: 192.168.73.70
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/40fff086199547a6ad3337a8130372f7/10.126.142.223.walk.cloudshellro.snmprec
-    created_at: 2019-10-30 22:05:15.548694+00:00
-    updated_at: 2019-10-30 22:05:15.548725+00:00
-    updated_by: null
-- model: simulator.recording
-  pk: 69
-  fields:
-    name: 'Ericsson IPOS-16.5.0.0.99-Release
+    sys_description: 'Ericsson IPOS-16.5.0.0.99-Release
 
       Built by ciflash@eussjblx1005.sj.us.am.ericsson.se 2016-09-26 20:39:50-0700
 
       Copyright (C) 1998-2016, Ericsson AB. All rights reserved.
 
       Current Platform is SSR 8020'
+    comment: ''
+    created_at: 2019-10-30 22:05:15.548694+00:00
+    updated_at: 2019-11-09 19:39:57.845852+00:00
+    updated_by: null
+- model: simulator.recording
+  pk: 69
+  fields:
+    name: Ericsson IPOS-16.5.0.0.99-Release
     ip_address: 192.168.73.71
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f859c5712a094bf7b81491ca0b2cff41/10.126.75.61.walk.cloudshellro.snmprec
+    sys_description: 'Ericsson IPOS-16.5.0.0.99-Release
+
+      Built by ciflash@eussjblx1005.sj.us.am.ericsson.se 2016-09-26 20:39:50-0700
+
+      Copyright (C) 1998-2016, Ericsson AB. All rights reserved.
+
+      Current Platform is SSR 8020'
+    comment: ''
     created_at: 2019-10-30 22:05:15.560264+00:00
-    updated_at: 2019-10-30 22:05:15.560297+00:00
+    updated_at: 2019-11-09 19:39:57.847769+00:00
     updated_by: null
 - model: simulator.recording
   pk: 70
   fields:
-    name: "Cisco IOS Software, 1841 Software (C1841-ADVIPSERVICESK9-M), Version 12.4(21a),\
-      \ RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2008 by Cisco Systems, Inc.\r\nCompiled Mon 29-Sep-08 14:48\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, 1841 Software
     ip_address: 192.168.73.72
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a418b2d2662042b3bf8ce40b63d1e661/10.33.130.97.walk.QualiSystemsRO.snmprec
+    sys_description: "Cisco IOS Software, 1841 Software (C1841-ADVIPSERVICESK9-M),\
+      \ Version 12.4(21a), RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2008 by Cisco Systems, Inc.\r\nCompiled Mon 29-Sep-08 14:48\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:15.571512+00:00
-    updated_at: 2019-10-30 22:05:15.571544+00:00
+    updated_at: 2019-11-09 19:39:57.849822+00:00
     updated_by: null
 - model: simulator.recording
   pk: 71
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.73
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8aea402a46954b4f92b279b12eb31852/138.187.92.7.walk.ipss.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:15.618777+00:00
-    updated_at: 2019-10-30 22:05:15.618825+00:00
+    updated_at: 2019-11-09 19:39:57.851941+00:00
     updated_by: null
 - model: simulator.recording
   pk: 72
   fields:
-    name: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version\
-      \ 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
-      \ by mcpre"
+    name: Cisco IOS Software, ISR Software
     ip_address: 192.168.73.74
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2f7e9c2274e64f53a1187416f0920b08/10.198.226.19.walk.tasMANia.snmprec
+    sys_description: "Cisco IOS Software, ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M),\
+      \ Version 15.5(3)S1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2015 by Cisco Systems, Inc.\r\nCompiled Wed 04-Nov-15 12:50\
+      \ by mcpre"
+    comment: ''
     created_at: 2019-10-30 22:05:15.632730+00:00
-    updated_at: 2019-10-30 22:05:15.632769+00:00
+    updated_at: 2019-11-09 19:39:57.853894+00:00
     updated_by: null
 - model: simulator.recording
   pk: 73
   fields:
-    name: 'Ericsson IPOS-16.3.1.0-25Feb13:11:092017-etiboha
+    name: Ericsson IPOS-16.3.1.0-25Feb13:11:092017-etiboha
+    ip_address: 192.168.73.75
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/0d09713bc9fb4637850dab023d4e0e89/10.86.112.59.walk.cloudshellro.snmprec
+    sys_description: 'Ericsson IPOS-16.3.1.0-25Feb13:11:092017-etiboha
 
       Built by etiboha@eselnblx1046 Sat Feb 25 13:11:09 CET 2017
 
       Copyright (C) 1998-2017, Ericsson AB. All rights reserved.
 
       Current Platform is SSR 8020'
-    ip_address: 192.168.73.75
-    port: 161
-    snmp_read_community: public
-    is_running: false
-    recording_file: recordings/0d09713bc9fb4637850dab023d4e0e89/10.86.112.59.walk.cloudshellro.snmprec
+    comment: ''
     created_at: 2019-10-30 22:05:15.645485+00:00
-    updated_at: 2019-10-30 22:05:15.645525+00:00
+    updated_at: 2019-11-09 19:39:57.855746+00:00
     updated_by: null
 - model: simulator.recording
   pk: 74
   fields:
-    name: xStream 10, 24 ports of Load balancing, Filtering, Aggregation
+    name: xStream 10
     ip_address: 192.168.73.76
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a7aa079b02e14dfca45fdd62cc282dc0/10.252.246.161.walk.private.snmprec
+    sys_description: xStream 10, 24 ports of Load balancing, Filtering, Aggregation
+    comment: ''
     created_at: 2019-10-30 22:05:15.658045+00:00
-    updated_at: 2019-10-30 22:05:15.658083+00:00
+    updated_at: 2019-11-09 19:39:57.857587+00:00
     updated_by: null
 - model: simulator.recording
   pk: 75
@@ -1039,8 +1197,11 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/803e4f198ee64591b668402a0263b52d/10.252.204.141.walk.Labsfmnaz.snmprec
+    sys_description: 'Linux NC-CIC-NSAE-CP-4200-2 2.6.18-92cp #1 SMP Wed Apr 8 17:12:19
+      IDT 2015 i686'
+    comment: ''
     created_at: 2019-10-30 22:05:15.670442+00:00
-    updated_at: 2019-10-30 22:05:15.670473+00:00
+    updated_at: 2019-11-09 19:39:57.859434+00:00
     updated_by: null
 - model: simulator.recording
   pk: 76
@@ -1052,8 +1213,11 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e0ae6d5af2ec4e6cb2b31a3c3ced7bf8/10.252.204.142.walk.Labsfmnaz.snmprec
+    sys_description: 'Linux NSIE-CIC-4800-1 2.6.18-92cpx86_64 #1 SMP Wed Apr 8 18:11:54
+      IDT 2015 x86_64'
+    comment: ''
     created_at: 2019-10-30 22:05:15.682025+00:00
-    updated_at: 2019-10-30 22:05:15.682056+00:00
+    updated_at: 2019-11-09 19:39:57.861480+00:00
     updated_by: null
 - model: simulator.recording
   pk: 77
@@ -1064,337 +1228,387 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1496539849e145f9a883311cc7914f00/10.252.246.184.walk.Labsfmnaz.snmprec
+    sys_description: TippingPoint IPS
+    comment: ''
     created_at: 2019-10-30 22:05:15.717049+00:00
-    updated_at: 2019-10-30 22:05:15.717086+00:00
+    updated_at: 2019-11-09 19:39:57.863524+00:00
     updated_by: null
 - model: simulator.recording
   pk: 78
   fields:
-    name: 'Ericsson IPOS-16.5.0.903.267-Release
+    name: Ericsson IPOS-16.5.0.903.267-Release
+    ip_address: 192.168.73.80
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/0e9dd9021e58462ba488a5e4c1c52781/10.86.112.64.walk.cloudshellro.snmprec
+    sys_description: 'Ericsson IPOS-16.5.0.903.267-Release
 
       Built by ciflash@camoblx1104.mo.ca.am.ericsson.se 2017-02-23 18:01:04-0500
 
       Copyright (C) 1998-2017, Ericsson AB. All rights reserved.
 
       Current Platform is Router 8801'
-    ip_address: 192.168.73.80
-    port: 161
-    snmp_read_community: public
-    is_running: false
-    recording_file: recordings/0e9dd9021e58462ba488a5e4c1c52781/10.86.112.64.walk.cloudshellro.snmprec
+    comment: ''
     created_at: 2019-10-30 22:05:15.731915+00:00
-    updated_at: 2019-10-30 22:05:15.731955+00:00
+    updated_at: 2019-11-09 19:39:57.865447+00:00
     updated_by: null
 - model: simulator.recording
   pk: 79
   fields:
-    name: 'CER_V05.00.00.0447, <<HW_REV: 4.0; VENDOR: ARRIS; BOOTR: V00.01.00>>'
+    name: CER_V05.00.00.0447
     ip_address: 192.168.73.81
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/846f63329d834f92a582582f64e0c054/172.31.17.66.walk.walkme.snmprec
+    sys_description: 'CER_V05.00.00.0447, <<HW_REV: 4.0; VENDOR: ARRIS; BOOTR: V00.01.00>>'
+    comment: ''
     created_at: 2019-10-30 22:05:15.807516+00:00
-    updated_at: 2019-10-30 22:05:15.807566+00:00
+    updated_at: 2019-11-09 19:39:57.867356+00:00
     updated_by: null
 - model: simulator.recording
   pk: 80
   fields:
-    name: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
-
-      Built by sysbuild@eussjlx7011.sj.us.am.ericsson.se Sun Nov 29 22:01:38 PST 2015'
+    name: Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
     ip_address: 192.168.73.82
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9ea686d3a0504622b25fd4308518b9f6/10.86.146.148.walk.cloudshellro.snmprec
+    sys_description: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
+
+      Built by sysbuild@eussjlx7011.sj.us.am.ericsson.se Sun Nov 29 22:01:38 PST 2015'
+    comment: ''
     created_at: 2019-10-30 22:05:15.822438+00:00
-    updated_at: 2019-10-30 22:05:15.822467+00:00
+    updated_at: 2019-11-09 19:39:57.869331+00:00
     updated_by: null
 - model: simulator.recording
   pk: 81
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1R4-S5.2,
-      Build date: 2017-08-18 18:25:15 UTC Copyright (c) 1996-2017 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.83
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/dc5f6e841e9946e69e30becb18c95c72/162.151.253.165.snmp.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 16.1R4-S5.2,
+      Build date: 2017-08-18 18:25:15 UTC Copyright (c) 1996-2017 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.903233+00:00
-    updated_at: 2019-10-30 22:05:15.903281+00:00
+    updated_at: 2019-11-09 19:39:57.871686+00:00
     updated_by: null
 - model: simulator.recording
   pk: 82
   fields:
-    name: "Cisco IOS XR Software (NCS-6000), Version 6.3.1.21I\r\nCopyright (c) 2013-2017\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-6000)
     ip_address: 192.168.73.84
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/36b01c9a55e6459b9ceb8d787c125b99/166.34.89.26.walk.400MSELab.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-6000), Version 6.3.1.21I\r\nCopyright\
+      \ (c) 2013-2017 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:15.925897+00:00
-    updated_at: 2019-10-30 22:05:15.925945+00:00
+    updated_at: 2019-11-09 19:39:57.875137+00:00
     updated_by: null
 - model: simulator.recording
   pk: 83
   fields:
-    name: 'Redback Networks SmartEdge OS Version SEOS-11.1.2.906-Release
-
-      Built by xkursav@eselnlx1363.mo.sw.ericsson.se Fri Oct 9 11:20:52 CEST 2015
-
-      Copyright (C) 1998-2015, Ericsson AB. All rights reserved.'
+    name: Redback Networks SmartEdge OS Version SEOS-11.1.2.906-Release
     ip_address: 192.168.73.85
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e70ed13255ea4db8b80592f7ef979796/10.86.146.180.walk.cloudshellro.snmprec
+    sys_description: 'Redback Networks SmartEdge OS Version SEOS-11.1.2.906-Release
+
+      Built by xkursav@eselnlx1363.mo.sw.ericsson.se Fri Oct 9 11:20:52 CEST 2015
+
+      Copyright (C) 1998-2015, Ericsson AB. All rights reserved.'
+    comment: ''
     created_at: 2019-10-30 22:05:15.939548+00:00
-    updated_at: 2019-10-30 22:05:15.939578+00:00
+    updated_at: 2019-11-09 19:39:57.877492+00:00
     updated_by: null
 - model: simulator.recording
   pk: 84
   fields:
-    name: 'Ericsson IPOS-16.1.1.4.27-Release
+    name: Ericsson IPOS-16.1.1.4.27-Release
+    ip_address: 192.168.73.86
+    port: 161
+    snmp_read_community: public
+    is_running: false
+    recording_file: recordings/9ecd8c113d874de69b20f3359815e17a/10.86.146.232.walk.cloudshellro.snmprec
+    sys_description: 'Ericsson IPOS-16.1.1.4.27-Release
 
       Built by ciflash@eussjblx1012.sj.us.am.ericsson.se 2016-05-25 11:11:25-0700
 
       Copyright (C) 1998-2016, Ericsson AB. All rights reserved.
 
       Current Platform is SSR 8010'
-    ip_address: 192.168.73.86
-    port: 161
-    snmp_read_community: public
-    is_running: false
-    recording_file: recordings/9ecd8c113d874de69b20f3359815e17a/10.86.146.232.walk.cloudshellro.snmprec
+    comment: ''
     created_at: 2019-10-30 22:05:15.951293+00:00
-    updated_at: 2019-10-30 22:05:15.951323+00:00
+    updated_at: 2019-11-09 19:39:57.879560+00:00
     updated_by: null
 - model: simulator.recording
   pk: 85
   fields:
-    name: Arista Networks EOS version 4.16.6M running on an Arista Networks DCS-7504
+    name: Arista Networks EOS version 4.16.6M
     ip_address: 192.168.73.87
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e551d46cdf654b98b73c05bbbf420cf8/10.3.146.101.walk.t3s7La8.snmprec
+    sys_description: Arista Networks EOS version 4.16.6M running on an Arista Networks
+      DCS-7504
+    comment: ''
     created_at: 2019-10-30 22:05:15.969093+00:00
-    updated_at: 2019-10-30 22:05:15.969130+00:00
+    updated_at: 2019-11-09 19:39:57.881439+00:00
     updated_by: null
 - model: simulator.recording
   pk: 86
   fields:
-    name: "Cisco IOS Software, Catalyst 4500 L3 Switch Software (cat4500e-ENTSERVICES-M),\
-      \ Version 15.0(2)SG8, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Mon 02-Dec-13 16:38\
-      \ by"
+    name: Cisco IOS Software, Catalyst 4500 L3 Switch Software
     ip_address: 192.168.73.88
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/4e09d5bb71404683afb30519f2494fd0/172.27.20.46.walk.CDNKDDI.snmprec
+    sys_description: "Cisco IOS Software, Catalyst 4500 L3 Switch Software (cat4500e-ENTSERVICES-M),\
+      \ Version 15.0(2)SG8, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2013 by Cisco Systems, Inc.\r\nCompiled Mon 02-Dec-13 16:38\
+      \ by"
+    comment: ''
     created_at: 2019-10-30 22:05:15.982147+00:00
-    updated_at: 2019-10-30 22:05:15.982178+00:00
+    updated_at: 2019-11-09 19:39:57.883248+00:00
     updated_by: null
 - model: simulator.recording
   pk: 87
   fields:
-    name: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
-
-      Built by sysbuild@eussjlx7011.sj.us.am.ericsson.se Sun Nov 29 22:01:38 PST 2015'
+    name: Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
     ip_address: 192.168.73.89
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/12ce582b0e4d49c1bfa22ef74967c873/10.86.146.146.walk.cloudshellro.snmprec
+    sys_description: 'Redback Networks SmartEdge OS Version SEOS-12.1.1.11-Release
+
+      Built by sysbuild@eussjlx7011.sj.us.am.ericsson.se Sun Nov 29 22:01:38 PST 2015'
+    comment: ''
     created_at: 2019-10-30 22:05:15.993702+00:00
-    updated_at: 2019-10-30 22:05:15.993757+00:00
+    updated_at: 2019-11-09 19:39:57.885218+00:00
     updated_by: null
 - model: simulator.recording
   pk: 88
   fields:
-    name: 'Redback Networks SmartEdge OS Version SEOS-11.1.2.5-Release
-
-      Built by xpaskri@eselnlx1209.mo.sw.ericsson.se Mon Jun 20 10:26:47 CEST 2016
-
-      Copyright (C) 1998-2016, Redback Networks Inc. All rights reserved.'
+    name: Redback Networks SmartEdge OS Version SEOS-11.1.2.5-Release
     ip_address: 192.168.73.90
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/44c8a32fa2144389af51613c76891134/10.86.146.158.walk.cloudshellro.snmprec
+    sys_description: 'Redback Networks SmartEdge OS Version SEOS-11.1.2.5-Release
+
+      Built by xpaskri@eselnlx1209.mo.sw.ericsson.se Mon Jun 20 10:26:47 CEST 2016
+
+      Copyright (C) 1998-2016, Redback Networks Inc. All rights reserved.'
+    comment: ''
     created_at: 2019-10-30 22:05:16.005372+00:00
-    updated_at: 2019-10-30 22:05:16.005402+00:00
+    updated_at: 2019-11-09 19:39:57.887081+00:00
     updated_by: null
 - model: simulator.recording
   pk: 89
   fields:
-    name: "Cisco IOS Software, ASR1000 Software (X86_64_LINUX_IOSD-ADVIPSERVICESK9-M),\
-      \ Version 15.4(1)S1, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Sat 01-Mar-14 11:58\
-      \ by mcp"
+    name: Cisco IOS Software, ASR1000 Software
     ip_address: 192.168.73.91
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/4b98fe38453b47bea264c752adf8bef2/10.3.147.62.walk.t3s7La8.snmprec
+    sys_description: "Cisco IOS Software, ASR1000 Software (X86_64_LINUX_IOSD-ADVIPSERVICESK9-M),\
+      \ Version 15.4(1)S1, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Sat 01-Mar-14 11:58\
+      \ by mcp"
+    comment: ''
     created_at: 2019-10-30 22:05:16.017580+00:00
-    updated_at: 2019-10-30 22:05:16.017624+00:00
+    updated_at: 2019-11-09 19:39:57.889055+00:00
     updated_by: null
 - model: simulator.recording
   pk: 90
   fields:
-    name: "Cisco IOS XR Software (NCS-5500), Version 6.1.3\r\nCopyright (c) 2013-2016\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-5500)
     ip_address: 192.168.73.92
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9773f28e8e5f43b4964a722ccadd15bb/2.127.255.53.walk.kN8qpTxH.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-5500), Version 6.1.3\r\nCopyright\
+      \ (c) 2013-2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:16.037769+00:00
-    updated_at: 2019-10-30 22:05:16.037804+00:00
+    updated_at: 2019-11-09 19:39:57.891928+00:00
     updated_by: null
 - model: simulator.recording
   pk: 91
   fields:
-    name: "TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450 Copyright (c) 2000-2014 Alcatel-Lucent.\r\
-      \nAll rights reserved. All use subject to applicable license agreements.\r\n\
-      Built on Wed Nov 19 14:34:29 PST 2014 by builder in /rel12.0/b1/R7/panos/main"
+    name: TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450
     ip_address: 192.168.73.93
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f89056092cbb4b7c873efee21b4182b5/192.168.216.32.walk.snmpread.snmprec
+    sys_description: "TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450 Copyright (c) 2000-2014\
+      \ Alcatel-Lucent.\r\nAll rights reserved. All use subject to applicable license\
+      \ agreements.\r\nBuilt on Wed Nov 19 14:34:29 PST 2014 by builder in /rel12.0/b1/R7/panos/main"
+    comment: ''
     created_at: 2019-10-30 22:05:16.254298+00:00
-    updated_at: 2019-10-30 22:05:16.254359+00:00
+    updated_at: 2019-11-09 19:39:57.894037+00:00
     updated_by: null
 - model: simulator.recording
   pk: 92
   fields:
-    name: "Cisco IOS XR Software (NCS-5500), Version 6.1.3\r\nCopyright (c) 2013-2016\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-5500)
     ip_address: 192.168.73.94
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/5cbf901b37e94b0498b3589e84e328e8/2.127.255.53.walk.kN8qpTxH.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-5500), Version 6.1.3\r\nCopyright\
+      \ (c) 2013-2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:16.276652+00:00
-    updated_at: 2019-10-30 22:05:16.276696+00:00
+    updated_at: 2019-11-09 19:39:57.895812+00:00
     updated_by: null
 - model: simulator.recording
   pk: 93
   fields:
-    name: "Cisco IOS XR Software (NCS-4000), Version 6.1.32.27I\r\nCopyright (c) 2013-2017\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-4000)
     ip_address: 192.168.73.95
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/eec29f85cfc94046a549d4cf2a91834e/166.38.196.42.walk.POPEYE.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-4000), Version 6.1.32.27I\r\nCopyright\
+      \ (c) 2013-2017 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:16.294992+00:00
-    updated_at: 2019-10-30 22:05:16.295035+00:00
+    updated_at: 2019-11-09 19:39:57.897949+00:00
     updated_by: null
 - model: simulator.recording
   pk: 94
   fields:
-    name: "Cisco IOS Software, ASR900 Software (PPC_LINUX_IOSD-UNIVERSALK9_NPE-M),\
-      \ Version 15.6(2)SP1b, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2016 by Cisco Systems, Inc.\r\nCompiled Tue 13-Dec-16 15:42\
-      \ by mcpre"
+    name: Cisco IOS Software, ASR900 Software
     ip_address: 192.168.73.96
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/ff4bab812286485992a6144e16329e4a/172.16.0.46.walk.Public.snmprec
+    sys_description: "Cisco IOS Software, ASR900 Software (PPC_LINUX_IOSD-UNIVERSALK9_NPE-M),\
+      \ Version 15.6(2)SP1b, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2016 by Cisco Systems, Inc.\r\nCompiled Tue 13-Dec-16 15:42\
+      \ by mcpre"
+    comment: ''
     created_at: 2019-10-30 22:05:16.308597+00:00
-    updated_at: 2019-10-30 22:05:16.308631+00:00
+    updated_at: 2019-11-09 19:39:57.899988+00:00
     updated_by: null
 - model: simulator.recording
   pk: 95
   fields:
-    name: "TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450 Copyright (c) 2000-2014 Alcatel-Lucent.\r\
-      \nAll rights reserved. All use subject to applicable license agreements.\r\n\
-      Built on Wed Nov 19 14:34:29 PST 2014 by builder in /rel12.0/b1/R7/panos/main"
+    name: TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450
     ip_address: 192.168.73.97
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/770db6e6a2cf48cba97dbd289a4b1397/192.168.216.36.walk.public.snmprec
+    sys_description: "TiMOS-C-12.0.R7 cpm/hops64 ALCATEL ESS 7450 Copyright (c) 2000-2014\
+      \ Alcatel-Lucent.\r\nAll rights reserved. All use subject to applicable license\
+      \ agreements.\r\nBuilt on Wed Nov 19 14:34:29 PST 2014 by builder in /rel12.0/b1/R7/panos/main"
+    comment: ''
     created_at: 2019-10-30 22:05:16.329985+00:00
-    updated_at: 2019-10-30 22:05:16.330026+00:00
+    updated_at: 2019-11-09 19:39:57.901735+00:00
     updated_by: null
 - model: simulator.recording
   pk: 96
   fields:
-    name: "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.5(3)M5,\
-      \ RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-17 05:10\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C2900 Software
     ip_address: 192.168.73.98
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/50bcd4029efb4188b892f83a57262f0d/10.34.20.152.walk.public.snmprec
+    sys_description: "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version\
+      \ 15.5(3)M5, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-17 05:10\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:16.342962+00:00
-    updated_at: 2019-10-30 22:05:16.342992+00:00
+    updated_at: 2019-11-09 19:39:57.903651+00:00
     updated_by: null
 - model: simulator.recording
   pk: 97
   fields:
-    name: "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.5(3)M5,\
-      \ RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-17 05:10\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C2900 Software
     ip_address: 192.168.73.99
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1b0bf7f748c9465c8778306439a22143/10.34.20.153.walk.public.snmprec
+    sys_description: "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version\
+      \ 15.5(3)M5, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-17 05:10\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:16.354345+00:00
-    updated_at: 2019-10-30 22:05:16.354377+00:00
+    updated_at: 2019-11-09 19:39:57.905569+00:00
     updated_by: null
 - model: simulator.recording
   pk: 98
   fields:
-    name: "Cisco IOS Software, C2951 Software (C2951-UNIVERSALK9-M), Version 15.1(4)M4,\
-      \ RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2012 by Cisco Systems, Inc.\r\nCompiled Tue 20-Mar-12 19:11\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C2951 Software
     ip_address: 192.168.73.100
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8e4cca545cda4e83b138334f553679ee/10.34.20.109.walk.public.snmprec
+    sys_description: "Cisco IOS Software, C2951 Software (C2951-UNIVERSALK9-M), Version\
+      \ 15.1(4)M4, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2012 by Cisco Systems, Inc.\r\nCompiled Tue 20-Mar-12 19:11\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:16.365360+00:00
-    updated_at: 2019-10-30 22:05:16.365389+00:00
+    updated_at: 2019-11-09 19:39:57.907634+00:00
     updated_by: null
 - model: simulator.recording
   pk: 99
   fields:
-    name: Arista Networks EOS version 4.16.6M running on an Arista Networks DCS-7504
+    name: Arista Networks EOS version 4.16.6M
     ip_address: 192.168.73.101
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e1484e97e37a46f5b682c1255a43783e/10.3.146.101.walk.t3s7La8.snmprec
+    sys_description: Arista Networks EOS version 4.16.6M running on an Arista Networks
+      DCS-7504
+    comment: ''
     created_at: 2019-10-30 22:05:16.380190+00:00
-    updated_at: 2019-10-30 22:05:16.380221+00:00
+    updated_at: 2019-11-09 19:39:57.909647+00:00
     updated_by: null
 - model: simulator.recording
   pk: 100
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 6.0.2[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.102
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f6d7b3541a234c3badbd5187a57dacd9/10.240.72.231.walk.public.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 6.0.2[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:16.399124+00:00
-    updated_at: 2019-10-30 22:05:16.399165+00:00
+    updated_at: 2019-11-09 19:39:57.911516+00:00
     updated_by: null
 - model: simulator.recording
   pk: 101
@@ -1405,47 +1619,56 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/071afe55e499431086b6e7cd4eaa7fb9/10.30.9.16.walk.public.snmprec
+    sys_description: EZ-EDGE 1.8.32
+    comment: ''
     created_at: 2019-10-30 22:05:16.411679+00:00
-    updated_at: 2019-10-30 22:05:16.411716+00:00
+    updated_at: 2019-11-09 19:39:57.913398+00:00
     updated_by: null
 - model: simulator.recording
   pk: 102
   fields:
-    name: Arista Networks EOS version 4.16.6M running on an Arista Networks DCS-7504
+    name: Arista Networks EOS version 4.16.6M
     ip_address: 192.168.73.104
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9abcba72a7ad4eb2b85bbb158886cf3d/10.3.146.100.walk.t3s7La8.snmprec
+    sys_description: Arista Networks EOS version 4.16.6M running on an Arista Networks
+      DCS-7504
+    comment: ''
     created_at: 2019-10-30 22:05:16.426062+00:00
-    updated_at: 2019-10-30 22:05:16.426093+00:00
+    updated_at: 2019-11-09 19:39:57.915232+00:00
     updated_by: null
 - model: simulator.recording
   pk: 103
   fields:
-    name: 'Juniper Networks, Inc. qfx10002-36q Ethernet Switch, kernel JUNOS 15.1X53-D62.5,
-      Build date: 2017-01-10 08:44:45 UTC Copyright (c) 1996-2017 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. qfx10002-36q Ethernet Switch
     ip_address: 192.168.73.105
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/b28506186f504aff87451e29ce0d9f26/10.222.182.168.walk.grugru.snmprec
+    sys_description: 'Juniper Networks, Inc. qfx10002-36q Ethernet Switch, kernel
+      JUNOS 15.1X53-D62.5, Build date: 2017-01-10 08:44:45 UTC Copyright (c) 1996-2017
+      Juniper Networks, Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:16.437597+00:00
-    updated_at: 2019-10-30 22:05:16.437625+00:00
+    updated_at: 2019-11-09 19:39:57.917147+00:00
     updated_by: null
 - model: simulator.recording
   pk: 104
   fields:
-    name: 'BIG-IP i2600 : Linux 2.6.32-431.56.1.el6.f5.x86_64 : BIG-IP software release
-      12.1.2, build 0.0.249'
+    name: 'BIG-IP i2600 : Linux 2.6.32-431.56.1.el6.f5.x86_64'
     ip_address: 192.168.73.106
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/709051edfaf54e7ca56a7642e0fc9457/172.16.3.218.walk.public.snmprec
+    sys_description: 'BIG-IP i2600 : Linux 2.6.32-431.56.1.el6.f5.x86_64 : BIG-IP
+      software release 12.1.2, build 0.0.249'
+    comment: ''
     created_at: 2019-10-30 22:05:17.021821+00:00
-    updated_at: 2019-10-30 22:05:17.021896+00:00
+    updated_at: 2019-11-09 19:39:57.919121+00:00
     updated_by: null
 - model: simulator.recording
   pk: 105
@@ -1456,8 +1679,10 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/ab5a33c1506342fab0e6886771cad471/172.22.21.145.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: FSP 150-GE114Pro
+    comment: ''
     created_at: 2019-10-30 22:05:17.050647+00:00
-    updated_at: 2019-10-30 22:05:17.050722+00:00
+    updated_at: 2019-11-09 19:39:57.921091+00:00
     updated_by: null
 - model: simulator.recording
   pk: 106
@@ -1468,237 +1693,274 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/35c2956281634402bc7207b2a0725afc/10.240.65.214.walk.public.snmprec
+    sys_description: FSP150EG-X
+    comment: ''
     created_at: 2019-10-30 22:05:17.205987+00:00
-    updated_at: 2019-10-30 22:05:17.206046+00:00
+    updated_at: 2019-11-09 19:39:57.922917+00:00
     updated_by: null
 - model: simulator.recording
   pk: 107
   fields:
-    name: "Cisco IOS XR Software (NCS-6000), Version 5.2.5\r\nCopyright (c) 2013-2014\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-6000)
     ip_address: 192.168.73.109
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/f3ac06af3cef4136b5b8e762d9c47935/10.3.151.98.walk.t3s7La8.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-6000), Version 5.2.5\r\nCopyright\
+      \ (c) 2013-2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.399804+00:00
-    updated_at: 2019-10-30 22:05:17.399851+00:00
+    updated_at: 2019-11-09 19:39:57.924741+00:00
     updated_by: null
 - model: simulator.recording
   pk: 108
   fields:
-    name: "Cisco IOS XR Software (Cisco CRS-8/S-B),  Version 5.3.3[Default]\r\nCopyright\
-      \ (c) 2017 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco CRS-8/S-B)
     ip_address: 192.168.73.111
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/45c2873ee7164b4186786050c011472b/172.31.13.1.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco CRS-8/S-B),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2017 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.443211+00:00
-    updated_at: 2019-10-30 22:05:17.443253+00:00
+    updated_at: 2019-11-09 19:39:57.926538+00:00
     updated_by: null
 - model: simulator.recording
   pk: 109
   fields:
-    name: "Huawei Versatile Routing Platform Software\r\nVRP (R) software, Version\
-      \ 5.160 (ATN V200R003C20SPC100)\r\nCopyright (C) 2013-2014 Huawei Technologies\
-      \ Co., Ltd.\r\nATN950B"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 5.160
     ip_address: 192.168.73.112
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3be9b044e6474d3787282d9e2d3350dd/10.23.1.16.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software\r\nVRP (R) software,\
+      \ Version 5.160 (ATN V200R003C20SPC100)\r\nCopyright (C) 2013-2014 Huawei Technologies\
+      \ Co., Ltd.\r\nATN950B"
+    comment: ''
     created_at: 2019-10-30 22:05:17.457192+00:00
-    updated_at: 2019-10-30 22:05:17.457229+00:00
+    updated_at: 2019-11-09 19:39:57.928385+00:00
     updated_by: null
 - model: simulator.recording
   pk: 110
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.113
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8c61f8d1cf974b6ba8a48c812e053a64/172.31.13.66.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.470038+00:00
-    updated_at: 2019-10-30 22:05:17.470068+00:00
+    updated_at: 2019-11-09 19:39:57.930396+00:00
     updated_by: null
 - model: simulator.recording
   pk: 111
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 4.2.3[Default]\r\n\
-      Copyright (c) 2014 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.114
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/c50d5119ef6b463288f05f63e7d341ae/172.31.14.0.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 4.2.3[Default]\r\
+      \nCopyright (c) 2014 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.482126+00:00
-    updated_at: 2019-10-30 22:05:17.482156+00:00
+    updated_at: 2019-11-09 19:39:57.932391+00:00
     updated_by: null
 - model: simulator.recording
   pk: 112
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.115
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a968091734844692bb600f90e027bf61/172.31.14.9.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.494352+00:00
-    updated_at: 2019-10-30 22:05:17.494389+00:00
+    updated_at: 2019-11-09 19:39:57.934141+00:00
     updated_by: null
 - model: simulator.recording
   pk: 113
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.117
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/b73d9d1d430e45e09a98fcfed19c2249/172.31.13.67.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.506158+00:00
-    updated_at: 2019-10-30 22:05:17.506194+00:00
+    updated_at: 2019-11-09 19:39:57.935949+00:00
     updated_by: null
 - model: simulator.recording
   pk: 114
   fields:
-    name: "Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(2)E7,\
-      \ RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
-      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 12-Jul-17 13:06\
-      \ by prod_rel_team"
+    name: Cisco IOS Software, C2960X Software
     ip_address: 192.168.73.118
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/622b35bbb9d3421cb9ea1ba6163e8463/192.168.192.193.walk.public.snmprec
+    sys_description: "Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M),\
+      \ Version 15.2(2)E7, RELEASE SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\
+      \nCopyright (c) 1986-2017 by Cisco Systems, Inc.\r\nCompiled Wed 12-Jul-17 13:06\
+      \ by prod_rel_team"
+    comment: ''
     created_at: 2019-10-30 22:05:17.519247+00:00
-    updated_at: 2019-10-30 22:05:17.519282+00:00
+    updated_at: 2019-11-09 19:39:57.937798+00:00
     updated_by: null
 - model: simulator.recording
   pk: 115
   fields:
-    name: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin, Software (nxos), Version 7.0(3)I5(1),
-      RELEASE SOFTWARE Copyright (c) 2002-2016 by Cisco Systems, Inc. Compiled 10/29/2016
-      8:00:00
+    name: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin
     ip_address: 192.168.73.119
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1093be30763145cfb5d9adaf0b6b20bc/10.222.182.246.walk.public.snmprec
+    sys_description: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin, Software (nxos), Version
+      7.0(3)I5(1), RELEASE SOFTWARE Copyright (c) 2002-2016 by Cisco Systems, Inc.
+      Compiled 10/29/2016 8:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:17.532288+00:00
-    updated_at: 2019-10-30 22:05:17.532330+00:00
+    updated_at: 2019-11-09 19:39:57.939654+00:00
     updated_by: null
 - model: simulator.recording
   pk: 116
   fields:
-    name: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin, Software (nxos), Version 7.0(3)I5(1),
-      RELEASE SOFTWARE Copyright (c) 2002-2016 by Cisco Systems, Inc. Compiled 10/29/2016
-      8:00:00
+    name: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin
     ip_address: 192.168.73.120
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/5fa7d945592f4212a92a2122f8726a39/10.222.182.248.walk.public.snmprec
+    sys_description: Cisco NX-OS(tm) nxos.7.0.3.I5.1.bin, Software (nxos), Version
+      7.0(3)I5(1), RELEASE SOFTWARE Copyright (c) 2002-2016 by Cisco Systems, Inc.
+      Compiled 10/29/2016 8:00:00
+    comment: ''
     created_at: 2019-10-30 22:05:17.544234+00:00
-    updated_at: 2019-10-30 22:05:17.544264+00:00
+    updated_at: 2019-11-09 19:39:57.941555+00:00
     updated_by: null
 - model: simulator.recording
   pk: 117
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\n\
-      Copyright (c) 2015 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.121
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/786444b6bf364170973239cafd0e6760/10.215.14.10.walk.bblab.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\
+      \nCopyright (c) 2015 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.556341+00:00
-    updated_at: 2019-10-30 22:05:17.556376+00:00
+    updated_at: 2019-11-09 19:39:57.943530+00:00
     updated_by: null
 - model: simulator.recording
   pk: 118
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\n\
-      Copyright (c) 2015 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.122
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2ab243134d6c4210b6b2da3fca54cdea/10.215.14.14.walk.bblab.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.1.3[Default]\r\
+      \nCopyright (c) 2015 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.571343+00:00
-    updated_at: 2019-10-30 22:05:17.571382+00:00
+    updated_at: 2019-11-09 19:39:57.945348+00:00
     updated_by: null
 - model: simulator.recording
   pk: 119
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.123
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/9bc818b3b7fd4e379313cc371115accd/68.86.2.129.walk.Net9M9mt.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.590082+00:00
-    updated_at: 2019-10-30 22:05:17.590136+00:00
+    updated_at: 2019-11-09 19:39:57.947206+00:00
     updated_by: null
 - model: simulator.recording
   pk: 120
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.124
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/15bca15f11f84db9abbb6ca87b5cf803/172.31.14.1.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.608776+00:00
-    updated_at: 2019-10-30 22:05:17.608832+00:00
+    updated_at: 2019-11-09 19:39:57.949075+00:00
     updated_by: null
 - model: simulator.recording
   pk: 121
   fields:
-    name: 'Juniper Networks, Inc. qfx5100-96s-8q Ethernet Switch, kernel JUNOS 16.1R6.7,
-      Build date: 2017-11-22 02:51:31 UTC Copyright (c) 1996-2017 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. qfx5100-96s-8q Ethernet Switch
     ip_address: 192.168.73.125
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/2098bbb989a145f79986d92860ef3995/10.252.128.130.walk.Y7QJEAaS_r5BVb-Jxd0hmM.snmprec
+    sys_description: 'Juniper Networks, Inc. qfx5100-96s-8q Ethernet Switch, kernel
+      JUNOS 16.1R6.7, Build date: 2017-11-22 02:51:31 UTC Copyright (c) 1996-2017
+      Juniper Networks, Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:17.624925+00:00
-    updated_at: 2019-10-30 22:05:17.624957+00:00
+    updated_at: 2019-11-09 19:39:57.951049+00:00
     updated_by: null
 - model: simulator.recording
   pk: 122
   fields:
-    name: 'Juniper Networks, Inc. mx240 internet router, kernel JUNOS 16.1R3-S6.6,
-      Build date: 2017-11-21 15:45:47 UTC Copyright (c) 1996-2017 Juniper Networks,
-      Inc.'
+    name: Juniper Networks, Inc. mx240 internet router
     ip_address: 192.168.73.126
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e16df7e016ef4904977990b7f1285f7b/153.39.123.72.walk.SNMPneCNMP.snmprec
+    sys_description: 'Juniper Networks, Inc. mx240 internet router, kernel JUNOS 16.1R3-S6.6,
+      Build date: 2017-11-21 15:45:47 UTC Copyright (c) 1996-2017 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:17.647204+00:00
-    updated_at: 2019-10-30 22:05:17.647240+00:00
+    updated_at: 2019-11-09 19:39:57.953186+00:00
     updated_by: null
 - model: simulator.recording
   pk: 123
   fields:
-    name: "Dell EMC Networking OS\r\nOperating System Version: 2.0\r\nApplication\
-      \ Software Version: 1-0(0-5908)\r\nSeries: S6100-ON\r\nCopyright (c) 1999-2018\
-      \ by Dell Inc. All Rights Reserved.\r\nBuild Time: Fri Mar 30 10:13:58 2018"
+    name: 'Dell EMC Networking OS Operating System Version: 2.0'
     ip_address: 192.168.73.127
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8368c1b93ee54d9599ec6dbb020ae5e1/10.16.133.160.walk.F10community.snmprec
+    sys_description: "Dell EMC Networking OS\r\nOperating System Version: 2.0\r\n\
+      Application Software Version: 1-0(0-5908)\r\nSeries: S6100-ON\r\nCopyright (c)\
+      \ 1999-2018 by Dell Inc. All Rights Reserved.\r\nBuild Time: Fri Mar 30 10:13:58\
+      \ 2018"
+    comment: ''
     created_at: 2019-10-30 22:05:17.659438+00:00
-    updated_at: 2019-10-30 22:05:17.659475+00:00
+    updated_at: 2019-11-09 19:39:57.955244+00:00
     updated_by: null
 - model: simulator.recording
   pk: 124
@@ -1709,34 +1971,40 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/dd6c6b31d3ee4bbeaca023eec588701d/10.16.151.35.walk.F10community.snmprec
+    sys_description: Dell EMC Networking OS10 Enterprise
+    comment: ''
     created_at: 2019-10-30 22:05:17.671892+00:00
-    updated_at: 2019-10-30 22:05:17.671929+00:00
+    updated_at: 2019-11-09 19:39:57.957262+00:00
     updated_by: null
 - model: simulator.recording
   pk: 125
   fields:
-    name: "Cisco IOS XR Software (NCS-4000), Version 6.1.42\r\nCopyright (c) 2013-2017\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-4000)
     ip_address: 192.168.73.130
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/0c926ebe05e9401f9e978aa4ddbe5edc/166.34.109.82.walk.fixed.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-4000), Version 6.1.42\r\nCopyright\
+      \ (c) 2013-2017 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.707260+00:00
-    updated_at: 2019-10-30 22:05:17.707309+00:00
+    updated_at: 2019-11-09 19:39:57.959110+00:00
     updated_by: null
 - model: simulator.recording
   pk: 126
   fields:
-    name: "Cisco IOS XR Software (NCS-4000), Version 6.1.42\r\nCopyright (c) 2013-2017\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-4000)
     ip_address: 192.168.73.131
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/7e9ea7399a284b1a8d1acaaaf624b80d/166.34.109.68.snmp.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-4000), Version 6.1.42\r\nCopyright\
+      \ (c) 2013-2017 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.771338+00:00
-    updated_at: 2019-10-30 22:05:17.771386+00:00
+    updated_at: 2019-11-09 19:39:57.960936+00:00
     updated_by: null
 - model: simulator.recording
   pk: 127
@@ -1747,64 +2015,74 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/808e684aebea40638bbe575b3f601d03/panos.txt.snmprec
+    sys_description: Palo Alto Networks PA-3000 series firewall
+    comment: ''
     created_at: 2019-10-30 22:05:17.787274+00:00
-    updated_at: 2019-10-30 22:05:17.787312+00:00
+    updated_at: 2019-11-09 19:39:57.962772+00:00
     updated_by: null
 - model: simulator.recording
   pk: 128
   fields:
-    name: 'Juniper Networks, Inc. JNP10003 [MX10003] internet router, kernel JUNOS
-      17.3R1.10, Build date: 2017-08-23 08:00:59 UTC Copyright (c) 1996-2017 Juniper
-      Networks, Inc.'
+    name: Juniper Networks, Inc. JNP10003 [MX10003] internet router
     ip_address: 192.168.73.133
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/283dfb0f24784ac5bef02d6d3ff27fe5/192.168.180.84.snmp.snmprec
+    sys_description: 'Juniper Networks, Inc. JNP10003 [MX10003] internet router, kernel
+      JUNOS 17.3R1.10, Build date: 2017-08-23 08:00:59 UTC Copyright (c) 1996-2017
+      Juniper Networks, Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:17.837088+00:00
-    updated_at: 2019-10-30 22:05:17.837149+00:00
+    updated_at: 2019-11-09 19:39:57.964706+00:00
     updated_by: null
 - model: simulator.recording
   pk: 129
   fields:
-    name: "Cisco IOS Software, ASR920 Software (PPC_LINUX_IOSD-UNIVERSALK9_NPE-M),\
-      \ Version 15.5(3)S5, CUST-SPECIAL:V155_3_S5_SR680761758\r\nThis software is\
-      \ supported for a limited time under special agreement with Cisco Systems, Inc.\
-      \ SR680761758\r\nCopyright (c) 1986-2"
+    name: Cisco IOS Software, ASR920 Software
     ip_address: 192.168.73.134
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/aa695e66ae924de4a616a25a89a65e54/10.215.62.54.walk.ipss.snmprec
+    sys_description: "Cisco IOS Software, ASR920 Software (PPC_LINUX_IOSD-UNIVERSALK9_NPE-M),\
+      \ Version 15.5(3)S5, CUST-SPECIAL:V155_3_S5_SR680761758\r\nThis software is\
+      \ supported for a limited time under special agreement with Cisco Systems, Inc.\
+      \ SR680761758\r\nCopyright (c) 1986-2"
+    comment: ''
     created_at: 2019-10-30 22:05:17.856594+00:00
-    updated_at: 2019-10-30 22:05:17.856641+00:00
+    updated_at: 2019-11-09 19:39:57.966578+00:00
     updated_by: null
 - model: simulator.recording
   pk: 130
   fields:
-    name: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\n\
-      Copyright (c) 2016 by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (Cisco ASR9K Series)
     ip_address: 192.168.73.135
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/feddfaf6dec7457ea1804e2092362c20/10.215.34.170.snmp.validated.snmprec
+    sys_description: "Cisco IOS XR Software (Cisco ASR9K Series),  Version 5.3.3[Default]\r\
+      \nCopyright (c) 2016 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.871130+00:00
-    updated_at: 2019-10-30 22:05:17.871163+00:00
+    updated_at: 2019-11-09 19:39:57.968479+00:00
     updated_by: null
 - model: simulator.recording
   pk: 131
   fields:
-    name: "Huawei Versatile Routing Platform Software \r\nVRP (R) software, Version\
-      \ 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei Technologies\
-      \ Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 8.100
     ip_address: 192.168.73.136
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/11167982cb734492a1f3691f755019a0/10.23.1.10.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software \r\nVRP (R) software,\
+      \ Version 8.100 (CE6850EI V100R005C10SPC200) \r\nCopyright (C) 2012-2015 Huawei\
+      \ Technologies Co., Ltd. \r\nHUAWEI CE6850-48S4Q-EI"
+    comment: ''
     created_at: 2019-10-30 22:05:17.883592+00:00
-    updated_at: 2019-10-30 22:05:17.883623+00:00
+    updated_at: 2019-11-09 19:39:57.970403+00:00
     updated_by: null
 - model: simulator.recording
   pk: 132
@@ -1815,117 +2093,137 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/5eb38e70e9a248a99e9e6c2d2467be74/10.23.1.8.snmp.snmprec
+    sys_description: Juniper PTX3000
+    comment: ''
     created_at: 2019-10-30 22:05:17.895724+00:00
-    updated_at: 2019-10-30 22:05:17.895755+00:00
+    updated_at: 2019-11-09 19:39:57.972339+00:00
     updated_by: null
 - model: simulator.recording
   pk: 133
   fields:
-    name: "Huawei Versatile Routing Platform Software\r\nVRP (R) software, Version\
-      \ 5.160 (ME60 V600R008C10SPC300)\r\nCopyright (C) 2000-2014 Huawei Technologies\
-      \ Co., Ltd.\r\nMultiserviceEngine 60-X8"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 5.160
     ip_address: 192.168.73.138
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/8cb3d0dcf95341c4b08255d86eded59f/10.23.1.22.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software\r\nVRP (R) software,\
+      \ Version 5.160 (ME60 V600R008C10SPC300)\r\nCopyright (C) 2000-2014 Huawei Technologies\
+      \ Co., Ltd.\r\nMultiserviceEngine 60-X8"
+    comment: ''
     created_at: 2019-10-30 22:05:17.909161+00:00
-    updated_at: 2019-10-30 22:05:17.909206+00:00
+    updated_at: 2019-11-09 19:39:57.974414+00:00
     updated_by: null
 - model: simulator.recording
   pk: 134
   fields:
-    name: 'Juniper Networks, Inc. E320 Edge Routing Switch SW Version : (15.1.1 patch-0.0.1
-      [BuildId 16273]) Build Date : September 24, 2015  14:03 Copyright (c) 1999-2015
-      Juniper Networks, Inc.  All rights reserved.'
+    name: Juniper Networks, Inc. E320 Edge Routing Switch
     ip_address: 192.168.73.139
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/1df37fe6bc954e69b881806ca841fdc0/172.16.1.80.snmp.snmprec
+    sys_description: 'Juniper Networks, Inc. E320 Edge Routing Switch SW Version :
+      (15.1.1 patch-0.0.1 [BuildId 16273]) Build Date : September 24, 2015  14:03
+      Copyright (c) 1999-2015 Juniper Networks, Inc.  All rights reserved.'
+    comment: ''
     created_at: 2019-10-30 22:05:17.921151+00:00
-    updated_at: 2019-10-30 22:05:17.921183+00:00
+    updated_at: 2019-11-09 19:39:57.976694+00:00
     updated_by: null
 - model: simulator.recording
   pk: 135
   fields:
-    name: "Cisco IOS XR Software (NCS-6000), Version 6.6.1\r\nCopyright (c) 2013-2018\
-      \ by Cisco Systems, Inc."
+    name: Cisco IOS XR Software (NCS-6000)
     ip_address: 192.168.73.140
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/e95fa914d08845f19a7dea16b352b4c0/166.34.89.121.snmp.snmprec
+    sys_description: "Cisco IOS XR Software (NCS-6000), Version 6.6.1\r\nCopyright\
+      \ (c) 2013-2018 by Cisco Systems, Inc."
+    comment: ''
     created_at: 2019-10-30 22:05:17.958741+00:00
-    updated_at: 2019-10-30 22:05:17.958777+00:00
+    updated_at: 2019-11-09 19:39:57.978556+00:00
     updated_by: null
 - model: simulator.recording
   pk: 136
   fields:
-    name: 'Juniper Networks, Inc. m10i internet router, kernel JUNOS 14.2R4-S9, Build
-      date: 2017-08-19 12:30:39 UTC Copyright (c) 1996-2017 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. m10i internet router
     ip_address: 192.168.73.141
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/3758a11dfcd541119d4ebcf498cf653a/153.39.123.152.snmp.snmprec
+    sys_description: 'Juniper Networks, Inc. m10i internet router, kernel JUNOS 14.2R4-S9,
+      Build date: 2017-08-19 12:30:39 UTC Copyright (c) 1996-2017 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:17.971063+00:00
-    updated_at: 2019-10-30 22:05:17.971097+00:00
+    updated_at: 2019-11-09 19:39:57.980418+00:00
     updated_by: null
 - model: simulator.recording
   pk: 137
   fields:
-    name: "Huawei Versatile Routing Platform Software \r\nVRP (R) software, Version\
-      \ 8.180 (CE6875EI V200R005C10SPC800) \r\nCopyright (C) 2012-2018 Huawei Technologies\
-      \ Co., Ltd. \r\nHUAWEI CE6875-48S4CQ-EI"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 8.180
     ip_address: 192.168.73.142
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a6be965662ef42f8b4bc3133a05b27c1/10.215.134.27.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software \r\nVRP (R) software,\
+      \ Version 8.180 (CE6875EI V200R005C10SPC800) \r\nCopyright (C) 2012-2018 Huawei\
+      \ Technologies Co., Ltd. \r\nHUAWEI CE6875-48S4CQ-EI"
+    comment: ''
     created_at: 2019-10-30 22:05:17.983885+00:00
-    updated_at: 2019-10-30 22:05:17.983918+00:00
+    updated_at: 2019-11-09 19:39:57.982282+00:00
     updated_by: null
 - model: simulator.recording
   pk: 138
   fields:
-    name: "Huawei Versatile Routing Platform Software\r\nVRP (R) software, Version\
-      \ 5.160 (ATN V200R003C20SPC100)\r\nCopyright (C) 2013-2014 Huawei Technologies\
-      \ Co., Ltd.\r\nATN 910I-TC DC"
+    name: Huawei Versatile Routing Platform Software VRP (R) software, Version 5.160
     ip_address: 192.168.73.143
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/44e9bc8c564b4c79ae4c1e6376204c6b/10.23.1.14.snmp.snmprec
+    sys_description: "Huawei Versatile Routing Platform Software\r\nVRP (R) software,\
+      \ Version 5.160 (ATN V200R003C20SPC100)\r\nCopyright (C) 2013-2014 Huawei Technologies\
+      \ Co., Ltd.\r\nATN 910I-TC DC"
+    comment: ''
     created_at: 2019-10-30 22:05:17.997646+00:00
-    updated_at: 2019-10-30 22:05:17.997680+00:00
+    updated_at: 2019-11-09 19:39:57.984094+00:00
     updated_by: null
 - model: simulator.recording
   pk: 139
   fields:
-    name: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1R6-S5, Build
-      date: 2018-01-26 17:13:46 UTC Copyright (c) 1996-2018 Juniper Networks, Inc.'
+    name: Juniper Networks, Inc. mx960 internet router
     ip_address: 192.168.73.144
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/a1b324ea46ed48f9868ec076b8295977/10.10.3.35.snmp.snmprec
+    sys_description: 'Juniper Networks, Inc. mx960 internet router, kernel JUNOS 15.1R6-S5,
+      Build date: 2018-01-26 17:13:46 UTC Copyright (c) 1996-2018 Juniper Networks,
+      Inc.'
+    comment: ''
     created_at: 2019-10-30 22:05:18.051131+00:00
-    updated_at: 2019-10-30 22:05:18.051171+00:00
+    updated_at: 2019-11-09 19:39:57.985971+00:00
     updated_by: null
 - model: simulator.recording
   pk: 140
   fields:
-    name: "TiMOS-C-16.0.R6 cpm/hops64 Nokia 7750 SR Copyright (c) 2000-2019 Nokia.\r\
-      \nAll rights reserved. All use subject to applicable license agreements.\r\n\
-      Built on Wed Feb 27 14:42:05 PST 2019 by builder in /builds/c/160B/R6/panos/main"
+    name: TiMOS-C-16.0.R6 cpm/hops64 Nokia 7750 SR
     ip_address: 192.168.73.145
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/be1023381abf43db8bd049833c186882/10.10.2.109.snmp.test.snmprec
+    sys_description: "TiMOS-C-16.0.R6 cpm/hops64 Nokia 7750 SR Copyright (c) 2000-2019\
+      \ Nokia.\r\nAll rights reserved. All use subject to applicable license agreements.\r\
+      \nBuilt on Wed Feb 27 14:42:05 PST 2019 by builder in /builds/c/160B/R6/panos/main"
+    comment: ''
     created_at: 2019-10-30 22:05:18.809723+00:00
-    updated_at: 2019-10-30 22:05:18.809788+00:00
+    updated_at: 2019-11-09 19:39:57.988096+00:00
     updated_by: null
 - model: simulator.recording
   pk: 141
@@ -1936,8 +2234,10 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/d220d890694b4be1bf40298c295deda5/PaloAltoRecording.snmp.snmprec
+    sys_description: Palo Alto Networks PA-800 series firewall
+    comment: ''
     created_at: 2019-10-30 22:05:13.560745+00:00
-    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_at: 2019-11-09 19:39:57.991393+00:00
     updated_by: null
 - model: simulator.recording
   pk: 142
@@ -1948,18 +2248,22 @@
     snmp_read_community: public
     is_running: false
     recording_file: recordings/20b55f84b1a247baaccb9449f0d4214e/10.33.120.52.snmp.snmprec
+    sys_description: CELab-SRX1400-Cluster
+    comment: ''
     created_at: 2019-10-30 22:05:13.560745+00:00
-    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_at: 2019-11-09 19:39:57.994062+00:00
     updated_by: null
 - model: simulator.recording
   pk: 143
   fields:
-    name: Cisco IOS XR Software (NCS-6000), Version 5.2.5
+    name: Cisco IOS XR Software (NCS-6000)
     ip_address: 192.168.73.116
     port: 161
     snmp_read_community: public
     is_running: false
     recording_file: recordings/39ebc00ef2474f90bc0dff508449b75c/10.3.151.99.walk.t3s7La8.snmprec
+    sys_description: Cisco IOS XR Software (NCS-6000), Version 5.2.5
+    comment: ''
     created_at: 2019-10-30 22:05:13.560745+00:00
-    updated_at: 2019-10-30 22:05:13.560782+00:00
+    updated_at: 2019-11-09 19:39:57.995964+00:00
     updated_by: null
