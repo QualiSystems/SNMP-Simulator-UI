@@ -5,10 +5,11 @@ from django.contrib import admin, messages
 from django.http import HttpResponseRedirect
 from django.template.loader import render_to_string
 from django.urls import reverse
-from simulator.snmpsim_runner import SNMPSimOSCommandRunner
 
 from .forms import RecordingForm
 from .models import Recording
+from .snmp_handler import SNMPHandler
+from .snmpsim_runner import SNMPSimOSCommandRunner
 
 
 admin.site.site_header = "Quali Simulator"
@@ -95,6 +96,20 @@ class RecordingAdmin(admin.ModelAdmin):
             ),
         ]
         return custom_urls + urls
+
+    def get_fields(self, request, obj=None):
+        """
+
+        :param request:
+        :param obj:
+        :return:
+        """
+        fields = super().get_fields(request, obj)
+
+        if obj is None:
+            fields.remove("sys_description")
+
+        return fields
 
     def save_model(self, request, obj, form, change):
         """
@@ -188,6 +203,18 @@ class RecordingAdmin(admin.ModelAdmin):
                                   level=messages.ERROR)
             else:
                 obj.is_running = True
+                if obj.autodiscover_sys_desc:
+                    try:
+                        snmp_handler = SNMPHandler(ip_address=obj.ip_address,
+                                                   snmp_read_community=obj.snmp_read_community,
+                                                   port=obj.port,
+                                                   logger=logger)
+
+                        obj.sys_description = snmp_handler.get_sys_desc()
+
+                    except Exception:
+                        logger.exception(f"Failed to discover sysDescr of recording '{obj}' due to:")
+
                 self.message_user(request, f"Recording '{obj}' updated and started")
 
             obj.save()
@@ -219,6 +246,18 @@ class RecordingAdmin(admin.ModelAdmin):
                                   level=messages.ERROR)
             else:
                 obj.is_running = True
+                if obj.autodiscover_sys_desc:
+                    try:
+                        snmp_handler = SNMPHandler(ip_address=obj.ip_address,
+                                                   snmp_read_community=obj.snmp_read_community,
+                                                   port=obj.port,
+                                                   logger=logger)
+
+                        obj.sys_description = snmp_handler.get_sys_desc()
+
+                    except Exception:
+                        logger.exception(f"Failed to discover sysDescr of recording '{obj}' due to:")
+
                 self.message_user(request, f"Recording '{obj}' created and started")
 
             obj.save()
@@ -325,7 +364,6 @@ class RecordingAdmin(admin.ModelAdmin):
                 continue
 
             recording.is_running = False
-            # todo: update recordings in one SQL operation
             recording.save()
 
         if failed_recordings:

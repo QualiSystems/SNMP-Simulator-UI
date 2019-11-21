@@ -29,6 +29,7 @@ class Recording(models.Model):
     snmp_read_community = models.CharField(default="public", max_length=255)
     is_running = models.BooleanField(default=False)
     recording_file = models.FileField(upload_to=upload_to)
+    autodiscover_sys_desc = models.BooleanField(default=True, verbose_name="Autodiscover sysDescr")
     sys_description = models.TextField(max_length=255, blank=True)
     comment = models.TextField(max_length=255, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
