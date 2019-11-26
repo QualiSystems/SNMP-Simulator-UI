@@ -70,6 +70,14 @@ class SNMPSimOSCommandRunner:
         except subprocess.CalledProcessError:
             logger.info(f"Failed to remove interface for IP '{ip_address}'", exc_info=True)
 
+    def _chown_recording_file(self, recording_file):
+        """
+
+        :param recording_file:
+        :return:
+        """
+        shutil.chown(path=recording_file, user=settings.SNMPSIM_USER, group=settings.SNMPSIM_GROUP)
+
     def start(self, recording_file, ip_address, port, snmp_read_community):
         """
 
@@ -80,6 +88,7 @@ class SNMPSimOSCommandRunner:
         :return:
         """
         self._create_sub_interface(ip_address)
+        self._chown_recording_file(recording_file)
 
         logger.info(f"Starting snmpsim recording '{recording_file}' on {ip_address}:{port} ...")
         output = subprocess.check_output(self._prepare_start_command(recording_file=recording_file,
