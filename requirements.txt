@@ -3,4 +3,5 @@ django-media-fixtures==0.0.3
 PyYAML==5.1.2
 django-easy-select2==1.5.6
 cloudshell-snmp==4.0.0
+djangorestframework~=3.13.0
 # git+https://github.com/Costya-Y/snmpsim.git@featture-custom-community-name#egg=snmpsim
